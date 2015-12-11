@@ -3,9 +3,9 @@
         BaseID="{2060C41B-FDF4-4156-841C-25EC6AF9A405}"
         DocLibID="{880CF908-DB6B-40FF-AD45-556AE44647D2}"
         XomlHref="Workflows/SMT-Program Update/SMT-Setup Update.xoml"
-        XomlVersion="V187.0"
+        XomlVersion="V188.0"
         RulesHref="Workflows/SMT-Program Update/SMT-Setup Update.xoml.rules"
-        RulesVersion="V187.0"
+        RulesVersion="V188.0"
     >
     </Template>
     <Association

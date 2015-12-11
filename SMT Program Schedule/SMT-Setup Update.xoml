@@ -254,248 +254,7 @@
 	</ns0:OnWorkflowActivated>
 	<ns0:ApplyActivation __Context="{ActivityBind ROOT,Path=__context}" x:Name="ID2" __WorkflowProperties="{ActivityBind ROOT,Path=__initParams}" />
 	<SequenceActivity x:Name="ID101" Description="Step 0" />
-	<IfElseActivity x:Name="ID4" Description="Step 1 - Customer">
-		<IfElseBranchActivity x:Name="ID3">
-			<IfElseBranchActivity.Condition>
-				<RuleConditionReference ConditionName="__Rule_ID3" />
-			</IfElseBranchActivity.Condition>
-			<ns0:FindActivity ListId="{}{DA471114-2E01-4911-A0FD-9C945FD14177}" x:Name="ID8" FieldName="Title" ReturnValue="{ActivityBind ROOT,Path=_x005f_Int320}" ExternalFieldName="Title" __Context="{ActivityBind ROOT,Path=__context}" ExternalListId="{}{340B4FD0-3E54-4FED-8045-29AFFA3B876C}" ListItem="{ActivityBind ROOT,Path=__item}" />
-			<ns0:LookupActivity ListId="{}{340B4FD0-3E54-4FED-8045-29AFFA3B876C}" x:Name="ID7" FieldName="Customer" LookupFunction="LookupFriendlyString" __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=_x005f_Int320}">
-				<ns0:LookupActivity.ReturnValue>
-					<ActivityBind Name="ROOT" Path="_x005f_String0" />
-				</ns0:LookupActivity.ReturnValue>
-			</ns0:LookupActivity>
-			<ns0:SetFieldActivity x:Name="ID6" FieldName="Customer" __Context="{ActivityBind ROOT,Path=__context}" __ListId="{ActivityBind ROOT,Path=__list}" __ListItem="{ActivityBind ROOT,Path=__item}">
-				<ns0:SetFieldActivity.Value>
-					<ActivityBind Name="ROOT" Path="_x005f_String0" />
-				</ns0:SetFieldActivity.Value>
-			</ns0:SetFieldActivity>
-		</IfElseBranchActivity>
-		<IfElseBranchActivity x:Name="ID9">
-			<IfElseBranchActivity.Condition>
-				<RuleConditionReference ConditionName="__Rule_ID9" />
-			</IfElseBranchActivity.Condition>
-		</IfElseBranchActivity>
-	</IfElseActivity>
-	<IfElseActivity x:Name="ID11" Description="Step 2 - Assy #">
-		<IfElseBranchActivity x:Name="ID10">
-			<IfElseBranchActivity.Condition>
-				<RuleConditionReference ConditionName="__Rule_ID10" />
-			</IfElseBranchActivity.Condition>
-			<ns0:FindActivity ListId="{}{DA471114-2E01-4911-A0FD-9C945FD14177}" x:Name="ID15" FieldName="Title" ReturnValue="{ActivityBind ROOT,Path=_x005f_Int321}" ExternalFieldName="Title" __Context="{ActivityBind ROOT,Path=__context}" ExternalListId="{}{340B4FD0-3E54-4FED-8045-29AFFA3B876C}" ListItem="{ActivityBind ROOT,Path=__item}" />
-			<ns0:LookupActivity ListId="{}{340B4FD0-3E54-4FED-8045-29AFFA3B876C}" x:Name="ID14" FieldName="Dorigo_x0020_Assy_x0023_" LookupFunction="LookupString" __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=_x005f_Int321}">
-				<ns0:LookupActivity.ReturnValue>
-					<ActivityBind Name="ROOT" Path="_x005f_String1" />
-				</ns0:LookupActivity.ReturnValue>
-			</ns0:LookupActivity>
-			<ns0:SetFieldActivity x:Name="ID13" FieldName="Dorigo_x0020_Assy_x0023_" __Context="{ActivityBind ROOT,Path=__context}" __ListId="{ActivityBind ROOT,Path=__list}" __ListItem="{ActivityBind ROOT,Path=__item}">
-				<ns0:SetFieldActivity.Value>
-					<ActivityBind Name="ROOT" Path="_x005f_String1" />
-				</ns0:SetFieldActivity.Value>
-			</ns0:SetFieldActivity>
-		</IfElseBranchActivity>
-		<IfElseBranchActivity x:Name="ID16">
-			<IfElseBranchActivity.Condition>
-				<RuleConditionReference ConditionName="__Rule_ID16" />
-			</IfElseBranchActivity.Condition>
-		</IfElseBranchActivity>
-	</IfElseActivity>
-	<IfElseActivity x:Name="ID18" Description="Step 3 - Job Qty">
-		<IfElseBranchActivity x:Name="ID17">
-			<IfElseBranchActivity.Condition>
-				<RuleConditionReference ConditionName="__Rule_ID17" />
-			</IfElseBranchActivity.Condition>
-			<ns0:FindActivity ListId="{}{DA471114-2E01-4911-A0FD-9C945FD14177}" x:Name="ID22" FieldName="Title" ReturnValue="{ActivityBind ROOT,Path=_x005f_Int322}" ExternalFieldName="Title" __Context="{ActivityBind ROOT,Path=__context}" ExternalListId="{}{340B4FD0-3E54-4FED-8045-29AFFA3B876C}" ListItem="{ActivityBind ROOT,Path=__item}" />
-			<ns0:LookupActivity ListId="{}{340B4FD0-3E54-4FED-8045-29AFFA3B876C}" x:Name="ID21" FieldName="Qty" LookupFunction="LookupDouble" __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=_x005f_Int322}">
-				<ns0:LookupActivity.ReturnValue>
-					<ActivityBind Name="ROOT" Path="_x005f_Double0" />
-				</ns0:LookupActivity.ReturnValue>
-			</ns0:LookupActivity>
-			<ns0:SetFieldActivity x:Name="ID20" FieldName="Qty" __Context="{ActivityBind ROOT,Path=__context}" __ListId="{ActivityBind ROOT,Path=__list}" __ListItem="{ActivityBind ROOT,Path=__item}">
-				<ns0:SetFieldActivity.Value>
-					<ActivityBind Name="ROOT" Path="_x005f_Double0" />
-				</ns0:SetFieldActivity.Value>
-			</ns0:SetFieldActivity>
-		</IfElseBranchActivity>
-		<IfElseBranchActivity x:Name="ID81">
-			<IfElseBranchActivity.Condition>
-				<RuleConditionReference ConditionName="__Rule_ID81" />
-			</IfElseBranchActivity.Condition>
-		</IfElseBranchActivity>
-	</IfElseActivity>
-	<IfElseActivity x:Name="ID24" Description="Step 4 - Description">
-		<IfElseBranchActivity x:Name="ID23">
-			<IfElseBranchActivity.Condition>
-				<RuleConditionReference ConditionName="__Rule_ID23" />
-			</IfElseBranchActivity.Condition>
-			<ns0:FindActivity ListId="{}{DA471114-2E01-4911-A0FD-9C945FD14177}" x:Name="ID28" FieldName="Title" ReturnValue="{ActivityBind ROOT,Path=_x005f_Int323}" ExternalFieldName="Title" __Context="{ActivityBind ROOT,Path=__context}" ExternalListId="{}{340B4FD0-3E54-4FED-8045-29AFFA3B876C}" ListItem="{ActivityBind ROOT,Path=__item}" />
-			<ns0:LookupActivity ListId="{}{340B4FD0-3E54-4FED-8045-29AFFA3B876C}" x:Name="ID27" FieldName="Description" LookupFunction="LookupString" __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=_x005f_Int323}">
-				<ns0:LookupActivity.ReturnValue>
-					<ActivityBind Name="ROOT" Path="_x005f_String2" />
-				</ns0:LookupActivity.ReturnValue>
-			</ns0:LookupActivity>
-			<ns0:SetFieldActivity x:Name="ID26" FieldName="Description" __Context="{ActivityBind ROOT,Path=__context}" __ListId="{ActivityBind ROOT,Path=__list}" __ListItem="{ActivityBind ROOT,Path=__item}">
-				<ns0:SetFieldActivity.Value>
-					<ActivityBind Name="ROOT" Path="_x005f_String2" />
-				</ns0:SetFieldActivity.Value>
-			</ns0:SetFieldActivity>
-		</IfElseBranchActivity>
-		<IfElseBranchActivity x:Name="ID29">
-			<IfElseBranchActivity.Condition>
-				<RuleConditionReference ConditionName="__Rule_ID29" />
-			</IfElseBranchActivity.Condition>
-		</IfElseBranchActivity>
-	</IfElseActivity>
-	<IfElseActivity x:Name="ID31" Description="Step 5 - Target Ship Date">
-		<IfElseBranchActivity x:Name="ID30">
-			<IfElseBranchActivity.Condition>
-				<RuleConditionReference ConditionName="__Rule_ID30" />
-			</IfElseBranchActivity.Condition>
-			<ns0:FindActivity ListId="{}{DA471114-2E01-4911-A0FD-9C945FD14177}" x:Name="ID2311" FieldName="Title" ReturnValue="{ActivityBind ROOT,Path=_x005f_Int3234}" ExternalFieldName="Title" __Context="{ActivityBind ROOT,Path=__context}" ExternalListId="{}{340B4FD0-3E54-4FED-8045-29AFFA3B876C}" ListItem="{ActivityBind ROOT,Path=__item}" />
-			<ns0:LookupActivity ListId="{}{340B4FD0-3E54-4FED-8045-29AFFA3B876C}" x:Name="ID2310" FieldName="SO_x0020_Due" LookupFunction="LookupDateTime" __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=_x005f_Int3234}">
-				<ns0:LookupActivity.ReturnValue>
-					<ActivityBind Name="ROOT" Path="_x005f_DateTime18" />
-				</ns0:LookupActivity.ReturnValue>
-			</ns0:LookupActivity>
-			<ns0:SetFieldActivity x:Name="ID2309" FieldName="SO_x0020_Due" __Context="{ActivityBind ROOT,Path=__context}" __ListId="{ActivityBind ROOT,Path=__list}" __ListItem="{ActivityBind ROOT,Path=__item}">
-				<ns0:SetFieldActivity.Value>
-					<ActivityBind Name="ROOT" Path="_x005f_DateTime18" />
-				</ns0:SetFieldActivity.Value>
-			</ns0:SetFieldActivity>
-		</IfElseBranchActivity>
-		<IfElseBranchActivity x:Name="ID36">
-			<IfElseBranchActivity.Condition>
-				<RuleConditionReference ConditionName="__Rule_ID36" />
-			</IfElseBranchActivity.Condition>
-		</IfElseBranchActivity>
-	</IfElseActivity>
-	<IfElseActivity x:Name="ID38" Description="Step 6 - Order Type">
-		<IfElseBranchActivity x:Name="ID37">
-			<IfElseBranchActivity.Condition>
-				<RuleConditionReference ConditionName="__Rule_ID37" />
-			</IfElseBranchActivity.Condition>
-			<ns0:FindActivity ListId="{}{DA471114-2E01-4911-A0FD-9C945FD14177}" x:Name="ID42" FieldName="Title" ReturnValue="{ActivityBind ROOT,Path=_x005f_Int325}" ExternalFieldName="Title" __Context="{ActivityBind ROOT,Path=__context}" ExternalListId="{}{340B4FD0-3E54-4FED-8045-29AFFA3B876C}" ListItem="{ActivityBind ROOT,Path=__item}" />
-			<ns0:LookupActivity ListId="{}{340B4FD0-3E54-4FED-8045-29AFFA3B876C}" x:Name="ID41" FieldName="T_x002f_CONS" LookupFunction="LookupFriendlyString" __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=_x005f_Int325}">
-				<ns0:LookupActivity.ReturnValue>
-					<ActivityBind Name="ROOT" Path="_x005f_String3" />
-				</ns0:LookupActivity.ReturnValue>
-			</ns0:LookupActivity>
-			<ns0:SetFieldActivity x:Name="ID40" FieldName="T_x002f_CONS" __Context="{ActivityBind ROOT,Path=__context}" __ListId="{ActivityBind ROOT,Path=__list}" __ListItem="{ActivityBind ROOT,Path=__item}">
-				<ns0:SetFieldActivity.Value>
-					<ActivityBind Name="ROOT" Path="_x005f_String3" />
-				</ns0:SetFieldActivity.Value>
-			</ns0:SetFieldActivity>
-		</IfElseBranchActivity>
-		<IfElseBranchActivity x:Name="ID43">
-			<IfElseBranchActivity.Condition>
-				<RuleConditionReference ConditionName="__Rule_ID43" />
-			</IfElseBranchActivity.Condition>
-		</IfElseBranchActivity>
-	</IfElseActivity>
-	<IfElseActivity x:Name="ID105" Description="Step 7 - Master Comments">
-		<IfElseBranchActivity x:Name="ID104">
-			<IfElseBranchActivity.Condition>
-				<RuleConditionReference ConditionName="__Rule_ID104" />
-			</IfElseBranchActivity.Condition>
-			<ns0:FindActivity ListId="{}{DA471114-2E01-4911-A0FD-9C945FD14177}" x:Name="ID109" FieldName="Title" ReturnValue="{ActivityBind ROOT,Path=_x005f_Int3212}" ExternalFieldName="Title" __Context="{ActivityBind ROOT,Path=__context}" ExternalListId="{}{340B4FD0-3E54-4FED-8045-29AFFA3B876C}" ListItem="{ActivityBind ROOT,Path=__item}" />
-			<ns0:LookupActivity ListId="{}{340B4FD0-3E54-4FED-8045-29AFFA3B876C}" x:Name="ID108" FieldName="Comments_x002d_SMT" LookupFunction="LookupString" __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=_x005f_Int3212}">
-				<ns0:LookupActivity.ReturnValue>
-					<ActivityBind Name="ROOT" Path="_x005f_String10" />
-				</ns0:LookupActivity.ReturnValue>
-			</ns0:LookupActivity>
-			<ns0:SetFieldActivity x:Name="ID107" FieldName="Master_x0020_Comments" __Context="{ActivityBind ROOT,Path=__context}" __ListId="{ActivityBind ROOT,Path=__list}" __ListItem="{ActivityBind ROOT,Path=__item}">
-				<ns0:SetFieldActivity.Value>
-					<ActivityBind Name="ROOT" Path="_x005f_String10" />
-				</ns0:SetFieldActivity.Value>
-			</ns0:SetFieldActivity>
-		</IfElseBranchActivity>
-		<IfElseBranchActivity x:Name="ID110">
-			<IfElseBranchActivity.Condition>
-				<RuleConditionReference ConditionName="__Rule_ID110" />
-			</IfElseBranchActivity.Condition>
-		</IfElseBranchActivity>
-	</IfElseActivity>
-	<IfElseActivity x:Name="ID49" Description="Step 8 - Kit status">
-		<IfElseBranchActivity x:Name="ID48">
-			<IfElseBranchActivity.Condition>
-				<RuleConditionReference ConditionName="__Rule_ID48" />
-			</IfElseBranchActivity.Condition>
-			<ns0:FindActivity ListId="{}{DA471114-2E01-4911-A0FD-9C945FD14177}" x:Name="ID53" FieldName="Title" ReturnValue="{ActivityBind ROOT,Path=_x005f_Int326}" ExternalFieldName="Title" __Context="{ActivityBind ROOT,Path=__context}" ExternalListId="{}{863FC4CA-4662-4CEF-9204-085AFEE352C3}" ListItem="{ActivityBind ROOT,Path=__item}" />
-			<ns0:LookupActivity ListId="{}{863FC4CA-4662-4CEF-9204-085AFEE352C3}" x:Name="ID52" FieldName="Kit_x0020_Status" LookupFunction="LookupFriendlyString" __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=_x005f_Int326}">
-				<ns0:LookupActivity.ReturnValue>
-					<ActivityBind Name="ROOT" Path="_x005f_String4" />
-				</ns0:LookupActivity.ReturnValue>
-			</ns0:LookupActivity>
-			<ns0:SetFieldActivity x:Name="ID51" FieldName="Kit_x0020_Status" __Context="{ActivityBind ROOT,Path=__context}" __ListId="{ActivityBind ROOT,Path=__list}" __ListItem="{ActivityBind ROOT,Path=__item}">
-				<ns0:SetFieldActivity.Value>
-					<ActivityBind Name="ROOT" Path="_x005f_String4" />
-				</ns0:SetFieldActivity.Value>
-			</ns0:SetFieldActivity>
-		</IfElseBranchActivity>
-		<IfElseBranchActivity x:Name="ID192">
-			<IfElseBranchActivity.Condition>
-				<RuleConditionReference ConditionName="__Rule_ID192_1" />
-			</IfElseBranchActivity.Condition>
-			<ns0:FindActivity ListId="{}{DA471114-2E01-4911-A0FD-9C945FD14177}" x:Name="ID195" FieldName="Title" ReturnValue="{ActivityBind ROOT,Path=_x005f_Int324}" ExternalFieldName="Title" __Context="{ActivityBind ROOT,Path=__context}" ExternalListId="{}{05573CB1-87AC-44C8-99F8-74E9697E3C72}" ListItem="{ActivityBind ROOT,Path=__item}" />
-			<ns0:LookupActivity ListId="{}{05573CB1-87AC-44C8-99F8-74E9697E3C72}" x:Name="ID194" FieldName="Kit_x0020_Status" LookupFunction="LookupFriendlyString" __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=_x005f_Int324}">
-				<ns0:LookupActivity.ReturnValue>
-					<ActivityBind Name="ROOT" Path="_x005f_String16" />
-				</ns0:LookupActivity.ReturnValue>
-			</ns0:LookupActivity>
-			<ns0:SetFieldActivity x:Name="ID193" FieldName="Kit_x0020_Status" __Context="{ActivityBind ROOT,Path=__context}" __ListId="{ActivityBind ROOT,Path=__list}" __ListItem="{ActivityBind ROOT,Path=__item}">
-				<ns0:SetFieldActivity.Value>
-					<ActivityBind Name="ROOT" Path="_x005f_String16" />
-				</ns0:SetFieldActivity.Value>
-			</ns0:SetFieldActivity>
-		</IfElseBranchActivity>
-	</IfElseActivity>
-	<IfElseActivity x:Name="ID56" Description="Step 9 - Next Proc">
-		<IfElseBranchActivity x:Name="ID55">
-			<IfElseBranchActivity.Condition>
-				<RuleConditionReference ConditionName="__Rule_ID55" />
-			</IfElseBranchActivity.Condition>
-			<ns0:FindActivity ListId="{}{DA471114-2E01-4911-A0FD-9C945FD14177}" x:Name="ID64" FieldName="Title" ReturnValue="{ActivityBind ROOT,Path=_x005f_Int327}" ExternalFieldName="Title" __Context="{ActivityBind ROOT,Path=__context}" ExternalListId="{}{7E797ADE-774A-4A3A-87CC-9C88AA2E6CB6}" ListItem="{ActivityBind ROOT,Path=__item}" />
-			<ns0:LookupActivity ListId="{}{7E797ADE-774A-4A3A-87CC-9C88AA2E6CB6}" x:Name="ID63" FieldName="Routing_x0020_1" LookupFunction="LookupFriendlyString" __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=_x005f_Int327}">
-				<ns0:LookupActivity.ReturnValue>
-					<ActivityBind Name="ROOT" Path="_x005f_String5" />
-				</ns0:LookupActivity.ReturnValue>
-			</ns0:LookupActivity>
-			<ns0:SetFieldActivity x:Name="ID62" FieldName="Next_x0020_Proc" __Context="{ActivityBind ROOT,Path=__context}" __ListId="{ActivityBind ROOT,Path=__list}" __ListItem="{ActivityBind ROOT,Path=__item}">
-				<ns0:SetFieldActivity.Value>
-					<ActivityBind Name="ROOT" Path="_x005f_String5" />
-				</ns0:SetFieldActivity.Value>
-			</ns0:SetFieldActivity>
-		</IfElseBranchActivity>
-		<IfElseBranchActivity x:Name="ID65">
-			<IfElseBranchActivity.Condition>
-				<RuleConditionReference ConditionName="__Rule_ID65" />
-			</IfElseBranchActivity.Condition>
-		</IfElseBranchActivity>
-	</IfElseActivity>
-	<IfElseActivity x:Name="ID565" Description="Step 10 - Next Next Proc">
-		<IfElseBranchActivity x:Name="ID564">
-			<IfElseBranchActivity.Condition>
-				<RuleConditionReference ConditionName="__Rule_ID564" />
-			</IfElseBranchActivity.Condition>
-			<ns0:FindActivity ListId="{}{DA471114-2E01-4911-A0FD-9C945FD14177}" x:Name="ID569" FieldName="Title" ReturnValue="{ActivityBind ROOT,Path=_x005f_Int3224}" ExternalFieldName="Title" __Context="{ActivityBind ROOT,Path=__context}" ExternalListId="{}{7E797ADE-774A-4A3A-87CC-9C88AA2E6CB6}" ListItem="{ActivityBind ROOT,Path=__item}" />
-			<ns0:LookupActivity ListId="{}{7E797ADE-774A-4A3A-87CC-9C88AA2E6CB6}" x:Name="ID568" FieldName="Routing_x0020_2" LookupFunction="LookupFriendlyString" __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=_x005f_Int3224}">
-				<ns0:LookupActivity.ReturnValue>
-					<ActivityBind Name="ROOT" Path="_x005f_String37" />
-				</ns0:LookupActivity.ReturnValue>
-			</ns0:LookupActivity>
-			<ns0:SetFieldActivity x:Name="ID567" FieldName="Next_x0020_Next_x0020_Proc" __Context="{ActivityBind ROOT,Path=__context}" __ListId="{ActivityBind ROOT,Path=__list}" __ListItem="{ActivityBind ROOT,Path=__item}">
-				<ns0:SetFieldActivity.Value>
-					<ActivityBind Name="ROOT" Path="_x005f_String37" />
-				</ns0:SetFieldActivity.Value>
-			</ns0:SetFieldActivity>
-		</IfElseBranchActivity>
-		<IfElseBranchActivity x:Name="ID571">
-			<IfElseBranchActivity.Condition>
-				<RuleConditionReference ConditionName="__Rule_ID571" />
-			</IfElseBranchActivity.Condition>
-		</IfElseBranchActivity>
-	</IfElseActivity>
-	<IfElseActivity x:Name="ID67" Description="Step 11 - Target Line - Bot">
+	<IfElseActivity x:Name="ID67" Description="Step 1 - Target Line - Bot">
 		<IfElseBranchActivity x:Name="ID422">
 			<IfElseBranchActivity.Condition>
 				<RuleConditionReference ConditionName="__Rule_ID422" />
@@ -582,7 +341,7 @@
 			<ns0:CreateItemActivity ListId="{}{0BB154A4-AAE3-4F65-BD81-DA9811EBAF0E}" x:Name="ID605" Overwrite="False" __Context="{ActivityBind ROOT,Path=__context}" ItemProperties="{ActivityBind ROOT,Path=_x005f_Hashtable16}" NewItemId="{ActivityBind ROOT,Path=create4}" />
 		</IfElseBranchActivity>
 	</IfElseActivity>
-	<IfElseActivity x:Name="ID457" Description="Step 12 - Target Line - Top">
+	<IfElseActivity x:Name="ID457" Description="Step 2 - Target Line - Top">
 		<IfElseBranchActivity x:Name="ID456">
 			<IfElseBranchActivity.Condition>
 				<RuleConditionReference ConditionName="__Rule_ID456" />
@@ -669,58 +428,7 @@
 			<ns0:CreateItemActivity ListId="{}{8202749A-817F-44D1-ADC2-DC86ED112154}" x:Name="ID618" Overwrite="False" __Context="{ActivityBind ROOT,Path=__context}" ItemProperties="{ActivityBind ROOT,Path=_x005f_Hashtable17}" NewItemId="{ActivityBind ROOT,Path=create5}" />
 		</IfElseBranchActivity>
 	</IfElseActivity>
-	<IfElseActivity x:Name="ID3625" Description="Step 13 - Update Assembly data">
-		<IfElseBranchActivity x:Name="ID3624">
-			<IfElseBranchActivity.Condition>
-				<RuleConditionReference ConditionName="__Rule_ID3624" />
-			</IfElseBranchActivity.Condition>
-			<ns0:FindActivity ListId="{}{DA471114-2E01-4911-A0FD-9C945FD14177}" x:Name="ID3631" FieldName="Title" ReturnValue="{ActivityBind ROOT,Path=_x005f_Int3215}" ExternalFieldName="Title" __Context="{ActivityBind ROOT,Path=__context}" ExternalListId="{}{340B4FD0-3E54-4FED-8045-29AFFA3B876C}" ListItem="{ActivityBind ROOT,Path=__item}" />
-			<ns0:LookupActivity ListId="{}{340B4FD0-3E54-4FED-8045-29AFFA3B876C}" x:Name="ID3630" FieldName="Orange" LookupFunction="LookupString" __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=_x005f_Int3215}">
-				<ns0:LookupActivity.ReturnValue>
-					<ActivityBind Name="ROOT" Path="_x005f_String115" />
-				</ns0:LookupActivity.ReturnValue>
-			</ns0:LookupActivity>
-			<ns0:SetFieldActivity x:Name="ID3627" FieldName="Orange" __Context="{ActivityBind ROOT,Path=__context}" __ListId="{ActivityBind ROOT,Path=__list}" __ListItem="{ActivityBind ROOT,Path=__item}">
-				<ns0:SetFieldActivity.Value>
-					<ActivityBind Name="ROOT" Path="_x005f_String115" />
-				</ns0:SetFieldActivity.Value>
-			</ns0:SetFieldActivity>
-			<ns0:FindActivity ListId="{}{DA471114-2E01-4911-A0FD-9C945FD14177}" x:Name="ID3635" FieldName="Title" ReturnValue="{ActivityBind ROOT,Path=_x005f_Int3235}" ExternalFieldName="Title" __Context="{ActivityBind ROOT,Path=__context}" ExternalListId="{}{340B4FD0-3E54-4FED-8045-29AFFA3B876C}" ListItem="{ActivityBind ROOT,Path=__item}" />
-			<ns0:LookupActivity ListId="{}{340B4FD0-3E54-4FED-8045-29AFFA3B876C}" x:Name="ID3634" FieldName="Flux_x0020_Type" LookupFunction="LookupFriendlyString" __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=_x005f_Int3235}">
-				<ns0:LookupActivity.ReturnValue>
-					<ActivityBind Name="ROOT" Path="_x005f_String116" />
-				</ns0:LookupActivity.ReturnValue>
-			</ns0:LookupActivity>
-			<ns0:SetFieldActivity x:Name="ID3633" FieldName="Flux_x0020_Type" __Context="{ActivityBind ROOT,Path=__context}" __ListId="{ActivityBind ROOT,Path=__list}" __ListItem="{ActivityBind ROOT,Path=__item}">
-				<ns0:SetFieldActivity.Value>
-					<ActivityBind Name="ROOT" Path="_x005f_String116" />
-				</ns0:SetFieldActivity.Value>
-			</ns0:SetFieldActivity>
-			<ns0:FindActivity ListId="{}{DA471114-2E01-4911-A0FD-9C945FD14177}" x:Name="ID3638" FieldName="Title" ReturnValue="{ActivityBind ROOT,Path=_x005f_Int3236}" ExternalFieldName="Title" __Context="{ActivityBind ROOT,Path=__context}" ExternalListId="{}{340B4FD0-3E54-4FED-8045-29AFFA3B876C}" ListItem="{ActivityBind ROOT,Path=__item}" />
-			<ns0:LookupActivity ListId="{}{340B4FD0-3E54-4FED-8045-29AFFA3B876C}" x:Name="ID3637" FieldName="Assy_x0020_Type" LookupFunction="LookupFriendlyString" __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=_x005f_Int3236}">
-				<ns0:LookupActivity.ReturnValue>
-					<ActivityBind Name="ROOT" Path="_x005f_String118" />
-				</ns0:LookupActivity.ReturnValue>
-			</ns0:LookupActivity>
-			<ns0:SetFieldActivity x:Name="ID3636" FieldName="Assy_x0020_Type" __Context="{ActivityBind ROOT,Path=__context}" __ListId="{ActivityBind ROOT,Path=__list}" __ListItem="{ActivityBind ROOT,Path=__item}">
-				<ns0:SetFieldActivity.Value>
-					<ActivityBind Name="ROOT" Path="_x005f_String118" />
-				</ns0:SetFieldActivity.Value>
-			</ns0:SetFieldActivity>
-			<ns0:FindActivity ListId="{}{DA471114-2E01-4911-A0FD-9C945FD14177}" x:Name="ID3641" FieldName="Title" ReturnValue="{ActivityBind ROOT,Path=_x005f_Int3237}" ExternalFieldName="Title" __Context="{ActivityBind ROOT,Path=__context}" ExternalListId="{}{340B4FD0-3E54-4FED-8045-29AFFA3B876C}" ListItem="{ActivityBind ROOT,Path=__item}" />
-			<ns0:LookupActivity ListId="{}{340B4FD0-3E54-4FED-8045-29AFFA3B876C}" x:Name="ID3640" FieldName="Mfg_x0020_Site" LookupFunction="LookupFriendlyString" __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=_x005f_Int3237}">
-				<ns0:LookupActivity.ReturnValue>
-					<ActivityBind Name="ROOT" Path="_x005f_String122" />
-				</ns0:LookupActivity.ReturnValue>
-			</ns0:LookupActivity>
-			<ns0:SetFieldActivity x:Name="ID3639" FieldName="Mfg_x0020_Site" __Context="{ActivityBind ROOT,Path=__context}" __ListId="{ActivityBind ROOT,Path=__list}" __ListItem="{ActivityBind ROOT,Path=__item}">
-				<ns0:SetFieldActivity.Value>
-					<ActivityBind Name="ROOT" Path="_x005f_String122" />
-				</ns0:SetFieldActivity.Value>
-			</ns0:SetFieldActivity>
-		</IfElseBranchActivity>
-	</IfElseActivity>
-	<IfElseActivity x:Name="ID115" Description="Step 14 - Setup Bot">
+	<IfElseActivity x:Name="ID115" Description="Step 3 - Setup Bot">
 		<IfElseBranchActivity x:Name="ID114">
 			<IfElseBranchActivity.Condition>
 				<RuleConditionReference ConditionName="__Rule_ID114" />
@@ -740,7 +448,7 @@
 			<ns0:UpdateItemActivity __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=_x005f_Int3213}" ItemProperties="{ActivityBind ROOT,Path=_x005f_Hashtable4}" ListId="{}{0BB154A4-AAE3-4F65-BD81-DA9811EBAF0E}" x:Name="ID117" />
 		</IfElseBranchActivity>
 	</IfElseActivity>
-	<IfElseActivity x:Name="ID124" Description="Step 15 - Setup Top">
+	<IfElseActivity x:Name="ID124" Description="Step 4 - Setup Top">
 		<IfElseBranchActivity x:Name="ID123">
 			<IfElseBranchActivity.Condition>
 				<RuleConditionReference ConditionName="__Rule_ID123" />
@@ -760,53 +468,7 @@
 			<ns0:UpdateItemActivity __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=_x005f_Int3214}" ItemProperties="{ActivityBind ROOT,Path=_x005f_Hashtable5}" ListId="{}{8202749A-817F-44D1-ADC2-DC86ED112154}" x:Name="ID126" />
 		</IfElseBranchActivity>
 	</IfElseActivity>
-	<IfElseActivity x:Name="ID630" Description="Step 16 - PE">
-		<IfElseBranchActivity x:Name="ID629">
-			<IfElseBranchActivity.Condition>
-				<RuleConditionReference ConditionName="__Rule_ID629" />
-			</IfElseBranchActivity.Condition>
-			<ns0:FindActivity ListId="{}{DA471114-2E01-4911-A0FD-9C945FD14177}" x:Name="ID634" FieldName="Title" ReturnValue="{ActivityBind ROOT,Path=_x005f_Int3225}" ExternalFieldName="Title" __Context="{ActivityBind ROOT,Path=__context}" ExternalListId="{}{7E797ADE-774A-4A3A-87CC-9C88AA2E6CB6}" ListItem="{ActivityBind ROOT,Path=__item}" />
-			<ns0:LookupActivity ListId="{}{7E797ADE-774A-4A3A-87CC-9C88AA2E6CB6}" x:Name="ID633" FieldName="PE" LookupFunction="LookupString" __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=_x005f_Int3225}">
-				<ns0:LookupActivity.ReturnValue>
-					<ActivityBind Name="ROOT" Path="_x005f_String41" />
-				</ns0:LookupActivity.ReturnValue>
-			</ns0:LookupActivity>
-			<ns0:SetFieldActivity x:Name="ID632" FieldName="PE" __Context="{ActivityBind ROOT,Path=__context}" __ListId="{ActivityBind ROOT,Path=__list}" __ListItem="{ActivityBind ROOT,Path=__item}">
-				<ns0:SetFieldActivity.Value>
-					<ActivityBind Name="ROOT" Path="_x005f_String41" />
-				</ns0:SetFieldActivity.Value>
-			</ns0:SetFieldActivity>
-		</IfElseBranchActivity>
-		<IfElseBranchActivity x:Name="ID636">
-			<IfElseBranchActivity.Condition>
-				<RuleConditionReference ConditionName="__Rule_ID636" />
-			</IfElseBranchActivity.Condition>
-		</IfElseBranchActivity>
-	</IfElseActivity>
-	<IfElseActivity x:Name="ID1167" Description="Step 17 - Last job">
-		<IfElseBranchActivity x:Name="ID1166">
-			<IfElseBranchActivity.Condition>
-				<RuleConditionReference ConditionName="__Rule_ID1166" />
-			</IfElseBranchActivity.Condition>
-			<ns0:FindActivity ListId="{}{DA471114-2E01-4911-A0FD-9C945FD14177}" x:Name="ID1171" FieldName="Title" ReturnValue="{ActivityBind ROOT,Path=_x005f_Int3228}" ExternalFieldName="Title" __Context="{ActivityBind ROOT,Path=__context}" ExternalListId="{}{340B4FD0-3E54-4FED-8045-29AFFA3B876C}" ListItem="{ActivityBind ROOT,Path=__item}" />
-			<ns0:LookupActivity ListId="{}{340B4FD0-3E54-4FED-8045-29AFFA3B876C}" x:Name="ID1170" FieldName="Last_x0020_Job_x0020_No_x002e__x" LookupFunction="LookupString" __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=_x005f_Int3228}">
-				<ns0:LookupActivity.ReturnValue>
-					<ActivityBind Name="ROOT" Path="_x005f_String56" />
-				</ns0:LookupActivity.ReturnValue>
-			</ns0:LookupActivity>
-			<ns0:SetFieldActivity x:Name="ID1169" FieldName="Last_x0020_Job_x0020_No_x002e__x" __Context="{ActivityBind ROOT,Path=__context}" __ListId="{ActivityBind ROOT,Path=__list}" __ListItem="{ActivityBind ROOT,Path=__item}">
-				<ns0:SetFieldActivity.Value>
-					<ActivityBind Name="ROOT" Path="_x005f_String56" />
-				</ns0:SetFieldActivity.Value>
-			</ns0:SetFieldActivity>
-		</IfElseBranchActivity>
-		<IfElseBranchActivity x:Name="ID1173">
-			<IfElseBranchActivity.Condition>
-				<RuleConditionReference ConditionName="__Rule_ID1173" />
-			</IfElseBranchActivity.Condition>
-		</IfElseBranchActivity>
-	</IfElseActivity>
-	<IfElseActivity x:Name="ID86" Description="Step 18 - Open">
+	<IfElseActivity x:Name="ID86" Description="Step 5 - Open">
 		<IfElseBranchActivity x:Name="ID3672">
 			<IfElseBranchActivity.Condition>
 				<RuleConditionReference ConditionName="__Rule_ID3672_1" />
@@ -846,7 +508,7 @@
 			<ns0:UpdateItemActivity __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=_x005f_Int3238}" ItemProperties="{ActivityBind ROOT,Path=_x005f_Hashtable8}" ListId="{}{DCE2CB78-DA74-4EA7-B8D8-5405960D5E36}" x:Name="ID3663" />
 		</IfElseBranchActivity>
 	</IfElseActivity>
-	<IfElseActivity x:Name="ID2394" Description="Step 19 - Tier">
+	<IfElseActivity x:Name="ID2394" Description="Step 6 - Tier">
 		<IfElseBranchActivity x:Name="ID3284">
 			<IfElseBranchActivity.Condition>
 				<RuleConditionReference ConditionName="__Rule_ID3284" />
@@ -875,7 +537,7 @@
 			<ns0:BuildStringActivity x:Name="ID4476" Variable="{ActivityBind ROOT,Path=Ops}" StringValue="Operations Tier [%_x005f_String124%]" />
 		</IfElseBranchActivity>
 	</IfElseActivity>
-	<IfElseActivity x:Name="ID2996" Description="Step 20 - TP vars">
+	<IfElseActivity x:Name="ID2996" Description="Step 7 - TP vars">
 		<IfElseBranchActivity x:Name="ID2994">
 			<IfElseBranchActivity.Condition>
 				<RuleConditionReference ConditionName="__Rule_ID2994" />
@@ -910,7 +572,7 @@
 			<ns0:BuildStringActivity x:Name="ID3009" Variable="{ActivityBind ROOT,Path=TP}" StringValue="&lt;b&gt;&lt;FONT COLOR=&quot;#348781&quot;&gt;5. &lt;/FONT&gt;&lt;FONT COLOR=&quot;#FF0000&quot;&gt;Thermal Profiling Required?: &lt;/FONT&gt;[%_x005f_String120%]&lt;/b&gt;" />
 		</IfElseBranchActivity>
 	</IfElseActivity>
-	<IfElseActivity x:Name="ID3000" Description="Step 21 - CT vars">
+	<IfElseActivity x:Name="ID3000" Description="Step 8 - CT vars">
 		<IfElseBranchActivity x:Name="ID2995">
 			<IfElseBranchActivity.Condition>
 				<RuleConditionReference ConditionName="__Rule_ID2995" />
@@ -945,7 +607,7 @@
 			<ns0:BuildStringActivity x:Name="ID3017" Variable="{ActivityBind ROOT,Path=CT}" StringValue="&lt;b&gt;&lt;FONT COLOR=&quot;#348781&quot;&gt;6. &lt;/FONT&gt;&lt;FONT COLOR=&quot;#FF0000&quot;&gt;Contamination Test Required? &lt;/FONT&gt;[%_x005f_String112%]&lt;/b&gt;" />
 		</IfElseBranchActivity>
 	</IfElseActivity>
-	<IfElseActivity x:Name="ID238" Description="Step 22 - Prog email">
+	<IfElseActivity x:Name="ID238" Description="Step 9 - Prog email">
 		<IfElseBranchActivity x:Name="ID237">
 			<IfElseBranchActivity.Condition>
 				<RuleConditionReference ConditionName="__Rule_ID237" />
@@ -1221,7 +883,7 @@
 			</IfElseBranchActivity.Condition>
 		</IfElseBranchActivity>
 	</IfElseActivity>
-	<IfElseActivity x:Name="ID1244" Description="Step 23 - Sch Change">
+	<IfElseActivity x:Name="ID1244" Description="Step 10 - Sch Change">
 		<IfElseBranchActivity x:Name="ID1243">
 			<IfElseBranchActivity.Condition>
 				<RuleConditionReference ConditionName="__Rule_ID1243" />
@@ -1629,10 +1291,10 @@
 			</ns0:SetFieldActivity>
 		</IfElseBranchActivity>
 	</IfElseActivity>
-	<SequenceActivity x:Name="ID2792" Description="Step 24 - Temp stop">
+	<SequenceActivity x:Name="ID2792" Description="Step 11 - Temp stop">
 		<TerminateActivity x:Name="ID2793" Error="Temp stop until TP/CT is ready" />
 	</SequenceActivity>
-	<IfElseActivity x:Name="ID2646" Description="Step 25 - TP and CT warning">
+	<IfElseActivity x:Name="ID2646" Description="Step 12 - TP and CT warning">
 		<IfElseBranchActivity x:Name="ID2645">
 			<IfElseBranchActivity.Condition>
 				<RuleConditionReference ConditionName="__Rule_ID2645" />
