@@ -1,0 +1,24 @@
+<WorkflowConfig>
+    <Template
+        BaseID="{2060C41B-FDF4-4156-841C-25EC6AF9A405}"
+        DocLibID="{880CF908-DB6B-40FF-AD45-556AE44647D2}"
+        XomlHref="Workflows/SMT-Program Update/SMT-Setup Update.xoml"
+        XomlVersion="V187.0"
+        RulesHref="Workflows/SMT-Program Update/SMT-Setup Update.xoml.rules"
+        RulesVersion="V187.0"
+    >
+    </Template>
+    <Association
+        ListID="{DA471114-2E01-4911-A0FD-9C945FD14177}"
+        TaskListID="{9F1490A8-F636-43FD-A424-7F8FD0A44865}"
+        StartManually="true"
+        StartOnChange="true"
+    >
+    </Association>
+    <ContentTypes>
+    </ContentTypes>
+    <Initiation URL="Workflows/SMT-Program Update/SMT-Setup Update.aspx">
+        <Fields/>
+        <Parameters></Parameters>
+    </Initiation>
+</WorkflowConfig>
