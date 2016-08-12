@@ -1,0 +1,24 @@
+<WorkflowConfig>
+    <Template
+        BaseID="{DA74895D-8EEC-4BEB-AD38-3DCCD176BBC4}"
+        DocLibID="{880CF908-DB6B-40FF-AD45-556AE44647D2}"
+        XomlHref="Workflows/SMT-Bot Update/SMT-Bot Update.xoml"
+        XomlVersion="V138.0"
+        RulesHref="Workflows/SMT-Bot Update/SMT-Bot Update.xoml.rules"
+        RulesVersion="V138.0"
+    >
+    </Template>
+    <Association
+        ListID="{0BB154A4-AAE3-4F65-BD81-DA9811EBAF0E}"
+        TaskListID="{9F1490A8-F636-43FD-A424-7F8FD0A44865}"
+        StartManually="true"
+        StartOnChange="true"
+    >
+    </Association>
+    <ContentTypes>
+    </ContentTypes>
+    <Initiation URL="Workflows/SMT-Bot Update/SMT-Bot Update.aspx">
+        <Fields/>
+        <Parameters></Parameters>
+    </Initiation>
+</WorkflowConfig>

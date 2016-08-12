@@ -1,0 +1,1549 @@
+<ns0:RootWorkflowActivityWithData x:Class="Microsoft.SharePoint.Workflow.ROOT" x:Name="ROOT" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/workflow" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:ns0="clr-namespace:Microsoft.SharePoint.WorkflowActions;Assembly=Microsoft.SharePoint.WorkflowActions, Version=12.0.0.0, Culture=neutral, PublicKeyToken=null">
+	<ns0:RootWorkflowActivityWithData.WorkflowFields>
+		<ns0:WorkflowDataField Name="__list" Type="System.String" />
+		<ns0:WorkflowDataField Name="__item" Type="System.Int32" />
+		<ns0:WorkflowDataField Name="__context" Type="Microsoft.SharePoint.WorkflowActions.WorkflowContext" />
+		<ns0:WorkflowDataField Name="__initParams" Type="Microsoft.SharePoint.Workflow.SPWorkflowActivationProperties" />
+		<ns0:WorkflowDataField Name="__workflowId" Type="System.Guid" />
+		<ns0:WorkflowDataField Name="_x005f_String0" Type="System.String" />
+		<ns0:WorkflowDataField Name="_x005f_Int320" Type="System.Int32" />
+		<ns0:WorkflowDataField Name="_x005f_String1" Type="System.String" />
+		<ns0:WorkflowDataField Name="_x005f_Int321" Type="System.Int32" />
+		<ns0:WorkflowDataField Name="_x005f_Double0" Type="System.Double" />
+		<ns0:WorkflowDataField Name="_x005f_Int322" Type="System.Int32" />
+		<ns0:WorkflowDataField Name="_x005f_String2" Type="System.String" />
+		<ns0:WorkflowDataField Name="_x005f_Int323" Type="System.Int32" />
+		<ns0:WorkflowDataField Name="_x005f_DateTime0" Type="System.DateTime" />
+		<ns0:WorkflowDataField Name="_x005f_Int324" Type="System.Int32" />
+		<ns0:WorkflowDataField Name="_x005f_Hashtable0" Type="System.Collections.Hashtable" />
+		<ns0:WorkflowDataField Name="_x005f_String3" Type="System.String" />
+		<ns0:WorkflowDataField Name="_x005f_Int325" Type="System.Int32" />
+		<ns0:WorkflowDataField Name="_x005f_Double1" Type="System.Double" />
+		<ns0:WorkflowDataField Name="_x005f_Int326" Type="System.Int32" />
+		<ns0:WorkflowDataField Name="_x005f_Hashtable1" Type="System.Collections.Hashtable" />
+		<ns0:WorkflowDataField Name="_x005f_String4" Type="System.String" />
+		<ns0:WorkflowDataField Name="_x005f_Int327" Type="System.Int32" />
+		<ns0:WorkflowDataField Name="_x005f_String5" Type="System.String" />
+		<ns0:WorkflowDataField Name="_x005f_Int328" Type="System.Int32" />
+		<ns0:WorkflowDataField Name="_x005f_Hashtable2" Type="System.Collections.Hashtable" />
+		<ns0:WorkflowDataField Name="_x005f_String6" Type="System.String" />
+		<ns0:WorkflowDataField Name="_x005f_Int329" Type="System.Int32" />
+		<ns0:WorkflowDataField Name="_x005f_String7" Type="System.String" />
+		<ns0:WorkflowDataField Name="_x005f_Int3210" Type="System.Int32" />
+		<ns0:WorkflowDataField Name="_x005f_Int3211" Type="System.Int32" />
+		<ns0:WorkflowDataField Name="_x005f_Hashtable3" Type="System.Collections.Hashtable" />
+		<ns0:WorkflowDataField Name="_x005f_Double2" Type="System.Double" />
+		<ns0:WorkflowDataField Name="_x005f_Double4" Type="System.Double" />
+		<ns0:WorkflowDataField Name="_x005f_Hashtable6" Type="System.Collections.Hashtable" />
+		<ns0:WorkflowDataField Name="_x005f_String9" Type="System.String" />
+		<ns0:WorkflowDataField Name="_x005f_Int3214" Type="System.Int32" />
+		<ns0:WorkflowDataField Name="_x005f_String10" Type="System.String" />
+		<ns0:WorkflowDataField Name="_x005f_Int3215" Type="System.Int32" />
+		<ns0:WorkflowDataField Name="_x005f_Hashtable7" Type="System.Collections.Hashtable" />
+		<ns0:WorkflowDataField Name="_x005f_String11" Type="System.String" />
+		<ns0:WorkflowDataField Name="_x005f_Int3216" Type="System.Int32" />
+		<ns0:WorkflowDataField Name="_x005f_String12" Type="System.String" />
+		<ns0:WorkflowDataField Name="_x005f_Int3217" Type="System.Int32" />
+		<ns0:WorkflowDataField Name="_x005f_Hashtable8" Type="System.Collections.Hashtable" />
+		<ns0:WorkflowDataField Name="_x005f_String13" Type="System.String" />
+		<ns0:WorkflowDataField Name="_x005f_Int3218" Type="System.Int32" />
+		<ns0:WorkflowDataField Name="_x005f_String14" Type="System.String" />
+		<ns0:WorkflowDataField Name="_x005f_Int3219" Type="System.Int32" />
+		<ns0:WorkflowDataField Name="_x005f_Hashtable9" Type="System.Collections.Hashtable" />
+		<ns0:WorkflowDataField Name="_x005f_String15" Type="System.String" />
+		<ns0:WorkflowDataField Name="_x005f_Int3220" Type="System.Int32" />
+		<ns0:WorkflowDataField Name="_x005f_String16" Type="System.String" />
+		<ns0:WorkflowDataField Name="_x005f_Int3221" Type="System.Int32" />
+		<ns0:WorkflowDataField Name="_x005f_Hashtable10" Type="System.Collections.Hashtable" />
+		<ns0:WorkflowDataField Name="_x005f_String17" Type="System.String" />
+		<ns0:WorkflowDataField Name="_x005f_Int3222" Type="System.Int32" />
+		<ns0:WorkflowDataField Name="_x005f_String18" Type="System.String" />
+		<ns0:WorkflowDataField Name="_x005f_Int3223" Type="System.Int32" />
+		<ns0:WorkflowDataField Name="_x005f_Hashtable11" Type="System.Collections.Hashtable" />
+		<ns0:WorkflowDataField Name="_x005f_String19" Type="System.String" />
+		<ns0:WorkflowDataField Name="_x005f_Int3224" Type="System.Int32" />
+		<ns0:WorkflowDataField Name="_x005f_String20" Type="System.String" />
+		<ns0:WorkflowDataField Name="_x005f_Int3225" Type="System.Int32" />
+		<ns0:WorkflowDataField Name="_x005f_Hashtable12" Type="System.Collections.Hashtable" />
+		<ns0:WorkflowDataField Name="_x005f_String21" Type="System.String" />
+		<ns0:WorkflowDataField Name="_x005f_Int3226" Type="System.Int32" />
+		<ns0:WorkflowDataField Name="_x005f_String22" Type="System.String" />
+		<ns0:WorkflowDataField Name="_x005f_Int3227" Type="System.Int32" />
+		<ns0:WorkflowDataField Name="_x005f_Hashtable13" Type="System.Collections.Hashtable" />
+		<ns0:WorkflowDataField Name="_x005f_String23" Type="System.String" />
+		<ns0:WorkflowDataField Name="_x005f_Int3228" Type="System.Int32" />
+		<ns0:WorkflowDataField Name="_x005f_String24" Type="System.String" />
+		<ns0:WorkflowDataField Name="_x005f_Int3229" Type="System.Int32" />
+		<ns0:WorkflowDataField Name="_x005f_Hashtable14" Type="System.Collections.Hashtable" />
+		<ns0:WorkflowDataField Name="_x005f_String25" Type="System.String" />
+		<ns0:WorkflowDataField Name="_x005f_Int3230" Type="System.Int32" />
+		<ns0:WorkflowDataField Name="_x005f_String26" Type="System.String" />
+		<ns0:WorkflowDataField Name="_x005f_Int3231" Type="System.Int32" />
+		<ns0:WorkflowDataField Name="_x005f_Hashtable15" Type="System.Collections.Hashtable" />
+		<ns0:WorkflowDataField Name="_x005f_String27" Type="System.String" />
+		<ns0:WorkflowDataField Name="_x005f_Int3232" Type="System.Int32" />
+		<ns0:WorkflowDataField Name="_x005f_String28" Type="System.String" />
+		<ns0:WorkflowDataField Name="_x005f_Int3233" Type="System.Int32" />
+		<ns0:WorkflowDataField Name="_x005f_Hashtable16" Type="System.Collections.Hashtable" />
+		<ns0:WorkflowDataField Name="_x005f_String29" Type="System.String" />
+		<ns0:WorkflowDataField Name="_x005f_Int3234" Type="System.Int32" />
+		<ns0:WorkflowDataField Name="_x005f_String30" Type="System.String" />
+		<ns0:WorkflowDataField Name="_x005f_Int3235" Type="System.Int32" />
+		<ns0:WorkflowDataField Name="_x005f_Hashtable17" Type="System.Collections.Hashtable" />
+		<ns0:WorkflowDataField Name="_x005f_String31" Type="System.String" />
+		<ns0:WorkflowDataField Name="_x005f_Int3236" Type="System.Int32" />
+		<ns0:WorkflowDataField Name="_x005f_String32" Type="System.String" />
+		<ns0:WorkflowDataField Name="_x005f_Int3237" Type="System.Int32" />
+		<ns0:WorkflowDataField Name="_x005f_Hashtable18" Type="System.Collections.Hashtable" />
+		<ns0:WorkflowDataField Name="_x005f_String33" Type="System.String" />
+		<ns0:WorkflowDataField Name="_x005f_Int3238" Type="System.Int32" />
+		<ns0:WorkflowDataField Name="_x005f_String34" Type="System.String" />
+		<ns0:WorkflowDataField Name="_x005f_Int3239" Type="System.Int32" />
+		<ns0:WorkflowDataField Name="_x005f_Hashtable19" Type="System.Collections.Hashtable" />
+		<ns0:WorkflowDataField Name="_x005f_String35" Type="System.String" />
+		<ns0:WorkflowDataField Name="_x005f_Int3240" Type="System.Int32" />
+		<ns0:WorkflowDataField Name="_x005f_String36" Type="System.String" />
+		<ns0:WorkflowDataField Name="_x005f_Int3241" Type="System.Int32" />
+		<ns0:WorkflowDataField Name="_x005f_Hashtable20" Type="System.Collections.Hashtable" />
+		<ns0:WorkflowDataField Name="_x005f_String37" Type="System.String" />
+		<ns0:WorkflowDataField Name="_x005f_Int3242" Type="System.Int32" />
+		<ns0:WorkflowDataField Name="_x005f_String38" Type="System.String" />
+		<ns0:WorkflowDataField Name="_x005f_Int3243" Type="System.Int32" />
+		<ns0:WorkflowDataField Name="_x005f_Hashtable21" Type="System.Collections.Hashtable" />
+		<ns0:WorkflowDataField Name="_x005f_String39" Type="System.String" />
+		<ns0:WorkflowDataField Name="_x005f_Int3244" Type="System.Int32" />
+		<ns0:WorkflowDataField Name="_x005f_String40" Type="System.String" />
+		<ns0:WorkflowDataField Name="_x005f_Int3245" Type="System.Int32" />
+		<ns0:WorkflowDataField Name="_x005f_Hashtable22" Type="System.Collections.Hashtable" />
+		<ns0:WorkflowDataField Name="_x005f_String41" Type="System.String" />
+		<ns0:WorkflowDataField Name="_x005f_Int3246" Type="System.Int32" />
+		<ns0:WorkflowDataField Name="_x005f_String42" Type="System.String" />
+		<ns0:WorkflowDataField Name="_x005f_Int3247" Type="System.Int32" />
+		<ns0:WorkflowDataField Name="_x005f_Hashtable23" Type="System.Collections.Hashtable" />
+		<ns0:WorkflowDataField Name="_x005f_String43" Type="System.String" />
+		<ns0:WorkflowDataField Name="_x005f_Int3248" Type="System.Int32" />
+		<ns0:WorkflowDataField Name="_x005f_String44" Type="System.String" />
+		<ns0:WorkflowDataField Name="_x005f_Int3249" Type="System.Int32" />
+		<ns0:WorkflowDataField Name="_x005f_Hashtable24" Type="System.Collections.Hashtable" />
+		<ns0:WorkflowDataField Name="_x005f_String45" Type="System.String" />
+		<ns0:WorkflowDataField Name="_x005f_Int3250" Type="System.Int32" />
+		<ns0:WorkflowDataField Name="_x005f_String46" Type="System.String" />
+		<ns0:WorkflowDataField Name="_x005f_Int3251" Type="System.Int32" />
+		<ns0:WorkflowDataField Name="_x005f_Hashtable25" Type="System.Collections.Hashtable" />
+		<ns0:WorkflowDataField Name="_x005f_String47" Type="System.String" />
+		<ns0:WorkflowDataField Name="_x005f_Int3252" Type="System.Int32" />
+		<ns0:WorkflowDataField Name="_x005f_String48" Type="System.String" />
+		<ns0:WorkflowDataField Name="_x005f_Int3253" Type="System.Int32" />
+		<ns0:WorkflowDataField Name="_x005f_Hashtable26" Type="System.Collections.Hashtable" />
+		<ns0:WorkflowDataField Name="_x005f_String49" Type="System.String" />
+		<ns0:WorkflowDataField Name="_x005f_Int3254" Type="System.Int32" />
+		<ns0:WorkflowDataField Name="_x005f_String50" Type="System.String" />
+		<ns0:WorkflowDataField Name="_x005f_Int3255" Type="System.Int32" />
+		<ns0:WorkflowDataField Name="_x005f_Int3257" Type="System.Int32" />
+		<ns0:WorkflowDataField Name="_x005f_Hashtable28" Type="System.Collections.Hashtable" />
+		<ns0:WorkflowDataField Name="_x005f_Double5" Type="System.Double" />
+		<ns0:WorkflowDataField Name="_x005f_Int3258" Type="System.Int32" />
+		<ns0:WorkflowDataField Name="_x005f_Hashtable29" Type="System.Collections.Hashtable" />
+		<ns0:WorkflowDataField Name="_x005f_String52" Type="System.String" />
+		<ns0:WorkflowDataField Name="_x005f_Int3259" Type="System.Int32" />
+		<ns0:WorkflowDataField Name="_x005f_Hashtable30" Type="System.Collections.Hashtable" />
+		<ns0:WorkflowDataField Name="_x005f_String53" Type="System.String" />
+		<ns0:WorkflowDataField Name="_x005f_Hashtable27" Type="System.Collections.Hashtable" />
+		<ns0:WorkflowDataField Name="_x005f_String51" Type="System.String" />
+		<ns0:WorkflowDataField Name="_x005f_Int3256" Type="System.Int32" />
+		<ns0:WorkflowDataField Name="_x005f_String55" Type="System.String" />
+		<ns0:WorkflowDataField Name="_x005f_Int3261" Type="System.Int32" />
+		<ns0:WorkflowDataField Name="_x005f_Hashtable31" Type="System.Collections.Hashtable" />
+		<ns0:WorkflowDataField Name="_x005f_String54" Type="System.String" />
+		<ns0:WorkflowDataField Name="_x005f_Int3260" Type="System.Int32" />
+		<ns0:WorkflowDataField Name="_x005f_Int3262" Type="System.Int32" />
+		<ns0:WorkflowDataField Name="_x005f_Hashtable32" Type="System.Collections.Hashtable" />
+		<ns0:WorkflowDataField Name="_x005f_String56" Type="System.String" />
+		<ns0:WorkflowDataField Name="_x005f_String57" Type="System.String" />
+		<ns0:WorkflowDataField Name="_x005f_Int3263" Type="System.Int32" />
+		<ns0:WorkflowDataField Name="_x005f_Int3264" Type="System.Int32" />
+		<ns0:WorkflowDataField Name="_x005f_Hashtable33" Type="System.Collections.Hashtable" />
+		<ns0:WorkflowDataField Name="_x005f_Double6" Type="System.Double" />
+		<ns0:WorkflowDataField Name="_x005f_Int3266" Type="System.Int32" />
+		<ns0:WorkflowDataField Name="_x005f_Hashtable34" Type="System.Collections.Hashtable" />
+		<ns0:WorkflowDataField Name="_x005f_String59" Type="System.String" />
+		<ns0:WorkflowDataField Name="_x005f_Int3267" Type="System.Int32" />
+		<ns0:WorkflowDataField Name="_x005f_Hashtable35" Type="System.Collections.Hashtable" />
+		<ns0:WorkflowDataField Name="_x005f_String60" Type="System.String" />
+		<ns0:WorkflowDataField Name="calc" Type="System.Double" />
+		<ns0:WorkflowDataField Name="_x005f_Double7" Type="System.Double" />
+		<ns0:WorkflowDataField Name="_x005f_Double8" Type="System.Double" />
+		<ns0:WorkflowDataField Name="_x0031_" Type="System.Double" />
+		<ns0:WorkflowDataField Name="_x0032_" Type="System.Double" />
+		<ns0:WorkflowDataField Name="create" Type="System.Int32" />
+		<ns0:WorkflowDataField Name="_x005f_Double10" Type="System.Double" />
+		<ns0:WorkflowDataField Name="create1" Type="System.Int32" />
+		<ns0:WorkflowDataField Name="_x005f_String58" Type="System.String" />
+		<ns0:WorkflowDataField Name="_x005f_Int3265" Type="System.Int32" />
+		<ns0:WorkflowDataField Name="_x005f_Int3268" Type="System.Int32" />
+		<ns0:WorkflowDataField Name="_x005f_Hashtable38" Type="System.Collections.Hashtable" />
+		<ns0:WorkflowDataField Name="_x005f_String64" Type="System.String" />
+		<ns0:WorkflowDataField Name="_x005f_Int3269" Type="System.Int32" />
+		<ns0:WorkflowDataField Name="_x005f_Hashtable39" Type="System.Collections.Hashtable" />
+		<ns0:WorkflowDataField Name="_x005f_String65" Type="System.String" />
+		<ns0:WorkflowDataField Name="_x005f_Int3271" Type="System.Int32" />
+		<ns0:WorkflowDataField Name="_x005f_Hashtable41" Type="System.Collections.Hashtable" />
+		<ns0:WorkflowDataField Name="_x005f_String67" Type="System.String" />
+		<ns0:WorkflowDataField Name="_x005f_Int3272" Type="System.Int32" />
+		<ns0:WorkflowDataField Name="_x005f_Hashtable42" Type="System.Collections.Hashtable" />
+		<ns0:WorkflowDataField Name="_x005f_Double13" Type="System.Double" />
+		<ns0:WorkflowDataField Name="_x005f_Int3273" Type="System.Int32" />
+		<ns0:WorkflowDataField Name="_x005f_Hashtable43" Type="System.Collections.Hashtable" />
+		<ns0:WorkflowDataField Name="_x005f_Double14" Type="System.Double" />
+		<ns0:WorkflowDataField Name="_x005f_Int3274" Type="System.Int32" />
+		<ns0:WorkflowDataField Name="_x005f_Hashtable44" Type="System.Collections.Hashtable" />
+		<ns0:WorkflowDataField Name="_x005f_Double15" Type="System.Double" />
+		<ns0:WorkflowDataField Name="_x005f_Double16" Type="System.Double" />
+		<ns0:WorkflowDataField Name="_x005f_Double17" Type="System.Double" />
+		<ns0:WorkflowDataField Name="_x005f_Double18" Type="System.Double" />
+		<ns0:WorkflowDataField Name="_x005f_Int3275" Type="System.Int32" />
+		<ns0:WorkflowDataField Name="_x005f_Int3276" Type="System.Int32" />
+		<ns0:WorkflowDataField Name="_x005f_Hashtable45" Type="System.Collections.Hashtable" />
+		<ns0:WorkflowDataField Name="_x005f_String68" Type="System.String" />
+		<ns0:WorkflowDataField Name="create2" Type="System.Int32" />
+		<ns0:WorkflowDataField Name="_x005f_Hashtable46" Type="System.Collections.Hashtable" />
+		<ns0:WorkflowDataField Name="_x005f_String69" Type="System.String" />
+		<ns0:WorkflowDataField Name="_x005f_String70" Type="System.String" />
+		<ns0:WorkflowDataField Name="_x005f_Int3277" Type="System.Int32" />
+		<ns0:WorkflowDataField Name="_x005f_Int3278" Type="System.Int32" />
+		<ns0:WorkflowDataField Name="_x005f_Hashtable47" Type="System.Collections.Hashtable" />
+		<ns0:WorkflowDataField Name="_x005f_Double19" Type="System.Double" />
+		<ns0:WorkflowDataField Name="_x005f_Int3279" Type="System.Int32" />
+		<ns0:WorkflowDataField Name="_x005f_Hashtable48" Type="System.Collections.Hashtable" />
+		<ns0:WorkflowDataField Name="_x005f_Double20" Type="System.Double" />
+		<ns0:WorkflowDataField Name="variable" Type="System.String" />
+		<ns0:WorkflowDataField Name="Mod" Type="System.String" />
+		<ns0:WorkflowDataField Name="_x005f_String72" Type="System.String" />
+		<ns0:WorkflowDataField Name="variable1" Type="System.String" />
+		<ns0:WorkflowDataField Name="Subject" Type="System.String" />
+		<ns0:WorkflowDataField Name="_x005f_String73" Type="System.String" />
+		<ns0:WorkflowDataField Name="_x005f_String74" Type="System.String" />
+		<ns0:WorkflowDataField Name="_x005f_Int3280" Type="System.Int32" />
+		<ns0:WorkflowDataField Name="_x005f_Hashtable49" Type="System.Collections.Hashtable" />
+		<ns0:WorkflowDataField Name="_x005f_Double21" Type="System.Double" />
+		<ns0:WorkflowDataField Name="_x005f_Int3281" Type="System.Int32" />
+		<ns0:WorkflowDataField Name="_x005f_Hashtable50" Type="System.Collections.Hashtable" />
+		<ns0:WorkflowDataField Name="_x005f_Double22" Type="System.Double" />
+		<ns0:WorkflowDataField Name="_x005f_Int3282" Type="System.Int32" />
+		<ns0:WorkflowDataField Name="_x005f_Hashtable51" Type="System.Collections.Hashtable" />
+		<ns0:WorkflowDataField Name="_x005f_Double23" Type="System.Double" />
+		<ns0:WorkflowDataField Name="_x005f_Int3283" Type="System.Int32" />
+		<ns0:WorkflowDataField Name="_x005f_Hashtable52" Type="System.Collections.Hashtable" />
+		<ns0:WorkflowDataField Name="_x005f_Double24" Type="System.Double" />
+		<ns0:WorkflowDataField Name="_x005f_Int3284" Type="System.Int32" />
+		<ns0:WorkflowDataField Name="_x005f_Hashtable53" Type="System.Collections.Hashtable" />
+		<ns0:WorkflowDataField Name="_x005f_Double25" Type="System.Double" />
+		<ns0:WorkflowDataField Name="_x005f_Int3285" Type="System.Int32" />
+		<ns0:WorkflowDataField Name="_x005f_Hashtable54" Type="System.Collections.Hashtable" />
+		<ns0:WorkflowDataField Name="_x005f_Double26" Type="System.Double" />
+		<ns0:WorkflowDataField Name="_x005f_Int3286" Type="System.Int32" />
+		<ns0:WorkflowDataField Name="_x005f_Hashtable55" Type="System.Collections.Hashtable" />
+		<ns0:WorkflowDataField Name="_x005f_Double27" Type="System.Double" />
+		<ns0:WorkflowDataField Name="_x005f_Int3287" Type="System.Int32" />
+		<ns0:WorkflowDataField Name="_x005f_Hashtable56" Type="System.Collections.Hashtable" />
+		<ns0:WorkflowDataField Name="_x005f_Double28" Type="System.Double" />
+		<ns0:WorkflowDataField Name="variable2" Type="System.String" />
+		<ns0:WorkflowDataField Name="PE" Type="System.String" />
+		<ns0:WorkflowDataField Name="_x005f_String79" Type="System.String" />
+		<ns0:WorkflowDataField Name="_x005f_Int3288" Type="System.Int32" />
+		<ns0:WorkflowDataField Name="_x005f_Hashtable36" Type="System.Collections.Hashtable" />
+		<ns0:WorkflowDataField Name="_x005f_String61" Type="System.String" />
+		<ns0:WorkflowDataField Name="_x005f_String62" Type="System.String" />
+		<ns0:WorkflowDataField Name="_x005f_DateTime1" Type="System.DateTime" />
+		<ns0:WorkflowDataField Name="_x005f_String71" Type="System.String" />
+		<ns0:WorkflowDataField Name="_x005f_String80" Type="System.String" />
+		<ns0:WorkflowDataField Name="_x005f_String81" Type="System.String" />
+		<ns0:WorkflowDataField Name="_x005f_Int3289" Type="System.Int32" />
+		<ns0:WorkflowDataField Name="create3" Type="System.Int32" />
+		<ns0:WorkflowDataField Name="variable3" Type="System.String" />
+		<ns0:WorkflowDataField Name="change_x002d_sub" Type="System.String" />
+		<ns0:WorkflowDataField Name="_x005f_DateTime3" Type="System.DateTime" />
+		<ns0:WorkflowDataField Name="_x005f_String87" Type="System.String" />
+		<ns0:WorkflowDataField Name="_x005f_String92" Type="System.String" />
+		<ns0:WorkflowDataField Name="_x005f_String88" Type="System.String" />
+		<ns0:WorkflowDataField Name="_x005f_String89" Type="System.String" />
+		<ns0:WorkflowDataField Name="_x005f_String90" Type="System.String" />
+		<ns0:WorkflowDataField Name="_x005f_String91" Type="System.String" />
+		<ns0:WorkflowDataField Name="_x005f_String93" Type="System.String" />
+		<ns0:WorkflowDataField Name="_x005f_ArrayList2" Type="System.Collections.ArrayList" />
+		<ns0:WorkflowDataField Name="_x005f_DateTime4" Type="System.DateTime" />
+		<ns0:WorkflowDataField Name="_x005f_Int3290" Type="System.Int32" />
+		<ns0:WorkflowDataField Name="_x005f_String94" Type="System.String" />
+		<ns0:WorkflowDataField Name="_x005f_Int3291" Type="System.Int32" />
+		<ns0:WorkflowDataField Name="_x005f_Double30" Type="System.Double" />
+		<ns0:WorkflowDataField Name="_x005f_String95" Type="System.String" />
+		<ns0:WorkflowDataField Name="_x005f_Int3292" Type="System.Int32" />
+		<ns0:WorkflowDataField Name="variable4" Type="System.String" />
+		<ns0:WorkflowDataField Name="_x005f_String97" Type="System.String" />
+		<ns0:WorkflowDataField Name="_x005f_String98" Type="System.String" />
+		<ns0:WorkflowDataField Name="_x005f_Int3212" Type="System.Int32" />
+		<ns0:WorkflowDataField Name="_x005f_Hashtable4" Type="System.Collections.Hashtable" />
+		<ns0:WorkflowDataField Name="_x005f_Double3" Type="System.Double" />
+		<ns0:WorkflowDataField Name="_x005f_String99" Type="System.String" />
+		<ns0:WorkflowDataField Name="_x005f_Double9" Type="System.Double" />
+		<ns0:WorkflowDataField Name="_x005f_Int3293" Type="System.Int32" />
+		<ns0:WorkflowDataField Name="_x005f_Hashtable57" Type="System.Collections.Hashtable" />
+		<ns0:WorkflowDataField Name="_x005f_String82" Type="System.String" />
+		<ns0:WorkflowDataField Name="_x005f_String83" Type="System.String" />
+		<ns0:WorkflowDataField Name="_x005f_Int3294" Type="System.Int32" />
+		<ns0:WorkflowDataField Name="_x005f_String84" Type="System.String" />
+		<ns0:WorkflowDataField Name="_x005f_String85" Type="System.String" />
+		<ns0:WorkflowDataField Name="_x005f_Double29" Type="System.Double" />
+		<ns0:WorkflowDataField Name="_x005f_String86" Type="System.String" />
+		<ns0:WorkflowDataField Name="_x005f_DateTime2" Type="System.DateTime" />
+		<ns0:WorkflowDataField Name="create4" Type="System.Int32" />
+		<ns0:WorkflowDataField Name="_x005f_Hashtable58" Type="System.Collections.Hashtable" />
+		<ns0:WorkflowDataField Name="_x005f_String100" Type="System.String" />
+		<ns0:WorkflowDataField Name="_x005f_String101" Type="System.String" />
+		<ns0:WorkflowDataField Name="_x005f_ArrayList3" Type="System.Collections.ArrayList" />
+		<ns0:WorkflowDataField Name="_x005f_String96" Type="System.String" />
+		<ns0:WorkflowDataField Name="_x005f_ArrayList4" Type="System.Collections.ArrayList" />
+		<ns0:WorkflowDataField Name="_x005f_Int3213" Type="System.Int32" />
+		<ns0:WorkflowDataField Name="_x005f_Hashtable5" Type="System.Collections.Hashtable" />
+		<ns0:WorkflowDataField Name="_x005f_Double11" Type="System.Double" />
+		<ns0:WorkflowDataField Name="_x005f_Int3270" Type="System.Int32" />
+		<ns0:WorkflowDataField Name="_x005f_Hashtable37" Type="System.Collections.Hashtable" />
+		<ns0:WorkflowDataField Name="_x005f_Double12" Type="System.Double" />
+		<ns0:WorkflowDataField Name="_x005f_Double31" Type="System.Double" />
+		<ns0:WorkflowDataField Name="_x005f_String8" Type="System.String" />
+		<ns0:WorkflowDataField Name="_x005f_String63" Type="System.String" />
+		<ns0:WorkflowDataField Name="_x005f_String66" Type="System.String" />
+		<ns0:WorkflowDataField Name="_x005f_ArrayList0" Type="System.Collections.ArrayList" />
+		<ns0:WorkflowDataField Name="_x005f_String75" Type="System.String" />
+		<ns0:WorkflowDataField Name="_x005f_ArrayList1" Type="System.Collections.ArrayList" />
+		<ns0:WorkflowDataField Name="_x005f_Double32" Type="System.Double" />
+		<ns0:WorkflowDataField Name="_x005f_Double33" Type="System.Double" />
+		<ns0:WorkflowDataField Name="QtyLeft" Type="System.Double" />
+		<ns0:WorkflowDataField Name="_x005f_Double34" Type="System.Double" />
+		<ns0:WorkflowDataField Name="_x005f_Double35" Type="System.Double" />
+		<ns0:WorkflowDataField Name="_x005f_Double36" Type="System.Double" />
+		<ns0:WorkflowDataField Name="_x005f_Int3296" Type="System.Int32" />
+		<ns0:WorkflowDataField Name="_x005f_Hashtable40" Type="System.Collections.Hashtable" />
+		<ns0:WorkflowDataField Name="_x005f_Int3295" Type="System.Int32" />
+		<ns0:WorkflowDataField Name="_x005f_Hashtable59" Type="System.Collections.Hashtable" />
+		<ns0:WorkflowDataField Name="_x005f_Double37" Type="System.Double" />
+		<ns0:WorkflowDataField Name="_x005f_String76" Type="System.String" />
+	</ns0:RootWorkflowActivityWithData.WorkflowFields>
+	<ns0:OnWorkflowActivated WorkflowProperties="{ActivityBind ROOT,Path=__initParams}" x:Name="ID1">
+		<ns0:OnWorkflowActivated.CorrelationToken>
+			<wf0:CorrelationToken Name="refObject" OwnerActivityName="ROOT" xmlns:wf0="http://schemas.microsoft.com/winfx/2006/xaml/workflow" />
+		</ns0:OnWorkflowActivated.CorrelationToken>
+	</ns0:OnWorkflowActivated>
+	<ns0:ApplyActivation __Context="{ActivityBind ROOT,Path=__context}" x:Name="ID2" __WorkflowProperties="{ActivityBind ROOT,Path=__initParams}" />
+	<SequenceActivity x:Name="ID185" Description="Step 0" />
+	<IfElseActivity x:Name="ID4" Description="Step 1 - Customer">
+		<IfElseBranchActivity x:Name="ID3">
+			<IfElseBranchActivity.Condition>
+				<RuleConditionReference ConditionName="__Rule_ID3" />
+			</IfElseBranchActivity.Condition>
+			<ns0:FindActivity ListId="{}{0BB154A4-AAE3-4F65-BD81-DA9811EBAF0E}" x:Name="ID8" FieldName="Title" ReturnValue="{ActivityBind ROOT,Path=_x005f_Int320}" ExternalFieldName="Title" __Context="{ActivityBind ROOT,Path=__context}" ExternalListId="{}{340B4FD0-3E54-4FED-8045-29AFFA3B876C}" ListItem="{ActivityBind ROOT,Path=__item}" />
+			<ns0:LookupActivity ListId="{}{340B4FD0-3E54-4FED-8045-29AFFA3B876C}" x:Name="ID7" FieldName="Customer" LookupFunction="LookupFriendlyString" __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=_x005f_Int320}">
+				<ns0:LookupActivity.ReturnValue>
+					<ActivityBind Name="ROOT" Path="_x005f_String0" />
+				</ns0:LookupActivity.ReturnValue>
+			</ns0:LookupActivity>
+			<ns0:SetFieldActivity x:Name="ID6" FieldName="Customer" __Context="{ActivityBind ROOT,Path=__context}" __ListId="{ActivityBind ROOT,Path=__list}" __ListItem="{ActivityBind ROOT,Path=__item}">
+				<ns0:SetFieldActivity.Value>
+					<ActivityBind Name="ROOT" Path="_x005f_String0" />
+				</ns0:SetFieldActivity.Value>
+			</ns0:SetFieldActivity>
+		</IfElseBranchActivity>
+		<IfElseBranchActivity x:Name="ID9">
+			<IfElseBranchActivity.Condition>
+				<RuleConditionReference ConditionName="__Rule_ID9" />
+			</IfElseBranchActivity.Condition>
+		</IfElseBranchActivity>
+	</IfElseActivity>
+	<IfElseActivity x:Name="ID11" Description="Step 2 - Assy #">
+		<IfElseBranchActivity x:Name="ID10">
+			<IfElseBranchActivity.Condition>
+				<RuleConditionReference ConditionName="__Rule_ID10" />
+			</IfElseBranchActivity.Condition>
+			<ns0:FindActivity ListId="{}{0BB154A4-AAE3-4F65-BD81-DA9811EBAF0E}" x:Name="ID15" FieldName="Title" ReturnValue="{ActivityBind ROOT,Path=_x005f_Int321}" ExternalFieldName="Title" __Context="{ActivityBind ROOT,Path=__context}" ExternalListId="{}{340B4FD0-3E54-4FED-8045-29AFFA3B876C}" ListItem="{ActivityBind ROOT,Path=__item}" />
+			<ns0:LookupActivity ListId="{}{340B4FD0-3E54-4FED-8045-29AFFA3B876C}" x:Name="ID14" FieldName="Dorigo_x0020_Assy_x0023_" LookupFunction="LookupString" __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=_x005f_Int321}">
+				<ns0:LookupActivity.ReturnValue>
+					<ActivityBind Name="ROOT" Path="_x005f_String1" />
+				</ns0:LookupActivity.ReturnValue>
+			</ns0:LookupActivity>
+			<ns0:SetFieldActivity x:Name="ID13" FieldName="Dorigo_x0020_Assy_x0023_" __Context="{ActivityBind ROOT,Path=__context}" __ListId="{ActivityBind ROOT,Path=__list}" __ListItem="{ActivityBind ROOT,Path=__item}">
+				<ns0:SetFieldActivity.Value>
+					<ActivityBind Name="ROOT" Path="_x005f_String1" />
+				</ns0:SetFieldActivity.Value>
+			</ns0:SetFieldActivity>
+		</IfElseBranchActivity>
+		<IfElseBranchActivity x:Name="ID16">
+			<IfElseBranchActivity.Condition>
+				<RuleConditionReference ConditionName="__Rule_ID16" />
+			</IfElseBranchActivity.Condition>
+		</IfElseBranchActivity>
+	</IfElseActivity>
+	<IfElseActivity x:Name="ID18" Description="Step 3 - Job Qty">
+		<IfElseBranchActivity x:Name="ID17">
+			<IfElseBranchActivity.Condition>
+				<RuleConditionReference ConditionName="__Rule_ID17" />
+			</IfElseBranchActivity.Condition>
+			<ns0:FindActivity ListId="{}{0BB154A4-AAE3-4F65-BD81-DA9811EBAF0E}" x:Name="ID22" FieldName="Title" ReturnValue="{ActivityBind ROOT,Path=_x005f_Int322}" ExternalFieldName="Title" __Context="{ActivityBind ROOT,Path=__context}" ExternalListId="{}{340B4FD0-3E54-4FED-8045-29AFFA3B876C}" ListItem="{ActivityBind ROOT,Path=__item}" />
+			<ns0:LookupActivity ListId="{}{340B4FD0-3E54-4FED-8045-29AFFA3B876C}" x:Name="ID21" FieldName="Qty" LookupFunction="LookupDouble" __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=_x005f_Int322}">
+				<ns0:LookupActivity.ReturnValue>
+					<ActivityBind Name="ROOT" Path="_x005f_Double0" />
+				</ns0:LookupActivity.ReturnValue>
+			</ns0:LookupActivity>
+			<ns0:SetFieldActivity x:Name="ID20" FieldName="Qty" __Context="{ActivityBind ROOT,Path=__context}" __ListId="{ActivityBind ROOT,Path=__list}" __ListItem="{ActivityBind ROOT,Path=__item}">
+				<ns0:SetFieldActivity.Value>
+					<ActivityBind Name="ROOT" Path="_x005f_Double0" />
+				</ns0:SetFieldActivity.Value>
+			</ns0:SetFieldActivity>
+		</IfElseBranchActivity>
+		<IfElseBranchActivity x:Name="ID23">
+			<IfElseBranchActivity.Condition>
+				<RuleConditionReference ConditionName="__Rule_ID23" />
+			</IfElseBranchActivity.Condition>
+		</IfElseBranchActivity>
+	</IfElseActivity>
+	<IfElseActivity x:Name="ID25" Description="Step 4 - Description">
+		<IfElseBranchActivity x:Name="ID24">
+			<IfElseBranchActivity.Condition>
+				<RuleConditionReference ConditionName="__Rule_ID24" />
+			</IfElseBranchActivity.Condition>
+			<ns0:FindActivity ListId="{}{0BB154A4-AAE3-4F65-BD81-DA9811EBAF0E}" x:Name="ID29" FieldName="Title" ReturnValue="{ActivityBind ROOT,Path=_x005f_Int323}" ExternalFieldName="Title" __Context="{ActivityBind ROOT,Path=__context}" ExternalListId="{}{340B4FD0-3E54-4FED-8045-29AFFA3B876C}" ListItem="{ActivityBind ROOT,Path=__item}" />
+			<ns0:LookupActivity ListId="{}{340B4FD0-3E54-4FED-8045-29AFFA3B876C}" x:Name="ID28" FieldName="Description" LookupFunction="LookupString" __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=_x005f_Int323}">
+				<ns0:LookupActivity.ReturnValue>
+					<ActivityBind Name="ROOT" Path="_x005f_String2" />
+				</ns0:LookupActivity.ReturnValue>
+			</ns0:LookupActivity>
+			<ns0:SetFieldActivity x:Name="ID27" FieldName="Description" __Context="{ActivityBind ROOT,Path=__context}" __ListId="{ActivityBind ROOT,Path=__list}" __ListItem="{ActivityBind ROOT,Path=__item}">
+				<ns0:SetFieldActivity.Value>
+					<ActivityBind Name="ROOT" Path="_x005f_String2" />
+				</ns0:SetFieldActivity.Value>
+			</ns0:SetFieldActivity>
+		</IfElseBranchActivity>
+		<IfElseBranchActivity x:Name="ID30">
+			<IfElseBranchActivity.Condition>
+				<RuleConditionReference ConditionName="__Rule_ID30" />
+			</IfElseBranchActivity.Condition>
+		</IfElseBranchActivity>
+	</IfElseActivity>
+	<IfElseActivity x:Name="ID574" Description="Step 5 - SMT-B">
+		<IfElseBranchActivity x:Name="ID573">
+			<IfElseBranchActivity.Condition>
+				<RuleConditionReference ConditionName="__Rule_ID573" />
+			</IfElseBranchActivity.Condition>
+			<ns0:FindActivity ListId="{}{0BB154A4-AAE3-4F65-BD81-DA9811EBAF0E}" x:Name="ID578" FieldName="Title" ReturnValue="{ActivityBind ROOT,Path=_x005f_Int3275}" ExternalFieldName="Title" __Context="{ActivityBind ROOT,Path=__context}" ExternalListId="{}{340B4FD0-3E54-4FED-8045-29AFFA3B876C}" ListItem="{ActivityBind ROOT,Path=__item}" />
+			<ns0:LookupActivity ListId="{}{340B4FD0-3E54-4FED-8045-29AFFA3B876C}" x:Name="ID577" FieldName="SMT_x002d_B" LookupFunction="LookupDouble" __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=_x005f_Int3275}">
+				<ns0:LookupActivity.ReturnValue>
+					<ActivityBind Name="ROOT" Path="_x005f_Double18" />
+				</ns0:LookupActivity.ReturnValue>
+			</ns0:LookupActivity>
+			<ns0:SetFieldActivity x:Name="ID576" FieldName="SMT_x002d_B" __Context="{ActivityBind ROOT,Path=__context}" __ListId="{ActivityBind ROOT,Path=__list}" __ListItem="{ActivityBind ROOT,Path=__item}">
+				<ns0:SetFieldActivity.Value>
+					<ActivityBind Name="ROOT" Path="_x005f_Double18" />
+				</ns0:SetFieldActivity.Value>
+			</ns0:SetFieldActivity>
+		</IfElseBranchActivity>
+		<IfElseBranchActivity x:Name="ID580">
+			<IfElseBranchActivity.Condition>
+				<RuleConditionReference ConditionName="__Rule_ID580" />
+			</IfElseBranchActivity.Condition>
+		</IfElseBranchActivity>
+	</IfElseActivity>
+	<IfElseActivity x:Name="ID364" Description="Step 7 - Master Comments">
+		<IfElseBranchActivity x:Name="ID363">
+			<IfElseBranchActivity.Condition>
+				<RuleConditionReference ConditionName="__Rule_ID363" />
+			</IfElseBranchActivity.Condition>
+			<ns0:FindActivity ListId="{}{0BB154A4-AAE3-4F65-BD81-DA9811EBAF0E}" x:Name="ID368" FieldName="Title" ReturnValue="{ActivityBind ROOT,Path=_x005f_Int3263}" ExternalFieldName="Title" __Context="{ActivityBind ROOT,Path=__context}" ExternalListId="{}{340B4FD0-3E54-4FED-8045-29AFFA3B876C}" ListItem="{ActivityBind ROOT,Path=__item}" />
+			<ns0:LookupActivity ListId="{}{340B4FD0-3E54-4FED-8045-29AFFA3B876C}" x:Name="ID367" FieldName="Comments_x002d_SMT" LookupFunction="LookupString" __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=_x005f_Int3263}">
+				<ns0:LookupActivity.ReturnValue>
+					<ActivityBind Name="ROOT" Path="_x005f_String57" />
+				</ns0:LookupActivity.ReturnValue>
+			</ns0:LookupActivity>
+			<ns0:SetFieldActivity x:Name="ID366" FieldName="Master_x0020_Comments" __Context="{ActivityBind ROOT,Path=__context}" __ListId="{ActivityBind ROOT,Path=__list}" __ListItem="{ActivityBind ROOT,Path=__item}">
+				<ns0:SetFieldActivity.Value>
+					<ActivityBind Name="ROOT" Path="_x005f_String57" />
+				</ns0:SetFieldActivity.Value>
+			</ns0:SetFieldActivity>
+		</IfElseBranchActivity>
+		<IfElseBranchActivity x:Name="ID369">
+			<IfElseBranchActivity.Condition>
+				<RuleConditionReference ConditionName="__Rule_ID369" />
+			</IfElseBranchActivity.Condition>
+		</IfElseBranchActivity>
+	</IfElseActivity>
+	<IfElseActivity x:Name="ID377" Description="Step 8 - Program">
+		<IfElseBranchActivity x:Name="ID376">
+			<IfElseBranchActivity.Condition>
+				<RuleConditionReference ConditionName="__Rule_ID376" />
+			</IfElseBranchActivity.Condition>
+			<ns0:FindActivity ListId="{}{0BB154A4-AAE3-4F65-BD81-DA9811EBAF0E}" x:Name="ID445" FieldName="Title" ReturnValue="{ActivityBind ROOT,Path=_x005f_Int3265}" ExternalFieldName="Title" __Context="{ActivityBind ROOT,Path=__context}" ExternalListId="{}{DA471114-2E01-4911-A0FD-9C945FD14177}" ListItem="{ActivityBind ROOT,Path=__item}" />
+			<ns0:LookupActivity ListId="{}{DA471114-2E01-4911-A0FD-9C945FD14177}" x:Name="ID444" FieldName="Program" LookupFunction="LookupFriendlyString" __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=_x005f_Int3265}">
+				<ns0:LookupActivity.ReturnValue>
+					<ActivityBind Name="ROOT" Path="_x005f_String58" />
+				</ns0:LookupActivity.ReturnValue>
+			</ns0:LookupActivity>
+			<ns0:SetFieldActivity x:Name="ID379" FieldName="Setup_x003f_" __Context="{ActivityBind ROOT,Path=__context}" __ListId="{ActivityBind ROOT,Path=__list}" __ListItem="{ActivityBind ROOT,Path=__item}">
+				<ns0:SetFieldActivity.Value>
+					<ActivityBind Name="ROOT" Path="_x005f_String58" />
+				</ns0:SetFieldActivity.Value>
+			</ns0:SetFieldActivity>
+		</IfElseBranchActivity>
+		<IfElseBranchActivity x:Name="ID382">
+			<IfElseBranchActivity.Condition>
+				<RuleConditionReference ConditionName="__Rule_ID382" />
+			</IfElseBranchActivity.Condition>
+		</IfElseBranchActivity>
+	</IfElseActivity>
+	<IfElseActivity x:Name="ID608" Description="Step 9 - PE">
+		<IfElseBranchActivity x:Name="ID607">
+			<IfElseBranchActivity.Condition>
+				<RuleConditionReference ConditionName="__Rule_ID607" />
+			</IfElseBranchActivity.Condition>
+			<ns0:FindActivity ListId="{}{0BB154A4-AAE3-4F65-BD81-DA9811EBAF0E}" x:Name="ID612" FieldName="Title" ReturnValue="{ActivityBind ROOT,Path=_x005f_Int3277}" ExternalFieldName="Title" __Context="{ActivityBind ROOT,Path=__context}" ExternalListId="{}{7E797ADE-774A-4A3A-87CC-9C88AA2E6CB6}" ListItem="{ActivityBind ROOT,Path=__item}" />
+			<ns0:LookupActivity ListId="{}{7E797ADE-774A-4A3A-87CC-9C88AA2E6CB6}" x:Name="ID611" FieldName="PE" LookupFunction="LookupString" __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=_x005f_Int3277}">
+				<ns0:LookupActivity.ReturnValue>
+					<ActivityBind Name="ROOT" Path="_x005f_String70" />
+				</ns0:LookupActivity.ReturnValue>
+			</ns0:LookupActivity>
+			<ns0:SetFieldActivity x:Name="ID610" FieldName="PE" __Context="{ActivityBind ROOT,Path=__context}" __ListId="{ActivityBind ROOT,Path=__list}" __ListItem="{ActivityBind ROOT,Path=__item}">
+				<ns0:SetFieldActivity.Value>
+					<ActivityBind Name="ROOT" Path="_x005f_String70" />
+				</ns0:SetFieldActivity.Value>
+			</ns0:SetFieldActivity>
+		</IfElseBranchActivity>
+		<IfElseBranchActivity x:Name="ID614">
+			<IfElseBranchActivity.Condition>
+				<RuleConditionReference ConditionName="__Rule_ID614" />
+			</IfElseBranchActivity.Condition>
+		</IfElseBranchActivity>
+	</IfElseActivity>
+	<IfElseActivity x:Name="ID782" Description="Step 10 - Last job">
+		<IfElseBranchActivity x:Name="ID781">
+			<IfElseBranchActivity.Condition>
+				<RuleConditionReference ConditionName="__Rule_ID781" />
+			</IfElseBranchActivity.Condition>
+			<ns0:FindActivity ListId="{}{0BB154A4-AAE3-4F65-BD81-DA9811EBAF0E}" x:Name="ID786" FieldName="Title" ReturnValue="{ActivityBind ROOT,Path=_x005f_Int3289}" ExternalFieldName="Title" __Context="{ActivityBind ROOT,Path=__context}" ExternalListId="{}{340B4FD0-3E54-4FED-8045-29AFFA3B876C}" ListItem="{ActivityBind ROOT,Path=__item}" />
+			<ns0:LookupActivity ListId="{}{340B4FD0-3E54-4FED-8045-29AFFA3B876C}" x:Name="ID785" FieldName="Last_x0020_Job_x0020_No_x002e__x" LookupFunction="LookupString" __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=_x005f_Int3289}">
+				<ns0:LookupActivity.ReturnValue>
+					<ActivityBind Name="ROOT" Path="_x005f_String81" />
+				</ns0:LookupActivity.ReturnValue>
+			</ns0:LookupActivity>
+			<ns0:SetFieldActivity x:Name="ID784" FieldName="Last_x0020_Job_x0020_No_x002e__x" __Context="{ActivityBind ROOT,Path=__context}" __ListId="{ActivityBind ROOT,Path=__list}" __ListItem="{ActivityBind ROOT,Path=__item}">
+				<ns0:SetFieldActivity.Value>
+					<ActivityBind Name="ROOT" Path="_x005f_String81" />
+				</ns0:SetFieldActivity.Value>
+			</ns0:SetFieldActivity>
+		</IfElseBranchActivity>
+		<IfElseBranchActivity x:Name="ID788">
+			<IfElseBranchActivity.Condition>
+				<RuleConditionReference ConditionName="__Rule_ID788" />
+			</IfElseBranchActivity.Condition>
+		</IfElseBranchActivity>
+	</IfElseActivity>
+	<IfElseActivity x:Name="ID965" Description="Step 11 - Sch run date">
+		<IfElseBranchActivity x:Name="ID963">
+			<IfElseBranchActivity.Condition>
+				<RuleConditionReference ConditionName="__Rule_ID963" />
+			</IfElseBranchActivity.Condition>
+			<ns0:FindActivity ListId="{}{0BB154A4-AAE3-4F65-BD81-DA9811EBAF0E}" x:Name="ID969" FieldName="Title" ReturnValue="{ActivityBind ROOT,Path=_x005f_Int3290}" ExternalFieldName="Title" __Context="{ActivityBind ROOT,Path=__context}" ExternalListId="{}{DA471114-2E01-4911-A0FD-9C945FD14177}" ListItem="{ActivityBind ROOT,Path=__item}" />
+			<ns0:LookupActivity ListId="{}{DA471114-2E01-4911-A0FD-9C945FD14177}" x:Name="ID968" FieldName="Scheduled_x0020_Run_x0020_Date_x" LookupFunction="LookupDateTime" __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=_x005f_Int3290}">
+				<ns0:LookupActivity.ReturnValue>
+					<ActivityBind Name="ROOT" Path="_x005f_DateTime4" />
+				</ns0:LookupActivity.ReturnValue>
+			</ns0:LookupActivity>
+			<ns0:SetFieldActivity x:Name="ID967" FieldName="Target_x0020_Date" __Context="{ActivityBind ROOT,Path=__context}" __ListId="{ActivityBind ROOT,Path=__list}" __ListItem="{ActivityBind ROOT,Path=__item}">
+				<ns0:SetFieldActivity.Value>
+					<ActivityBind Name="ROOT" Path="_x005f_DateTime4" />
+				</ns0:SetFieldActivity.Value>
+			</ns0:SetFieldActivity>
+		</IfElseBranchActivity>
+		<IfElseBranchActivity x:Name="ID971">
+			<IfElseBranchActivity.Condition>
+				<RuleConditionReference ConditionName="__Rule_ID971" />
+			</IfElseBranchActivity.Condition>
+		</IfElseBranchActivity>
+	</IfElseActivity>
+	<IfElseActivity x:Name="ID974" Description="Step 12 - Comments-Program">
+		<IfElseBranchActivity x:Name="ID973">
+			<IfElseBranchActivity.Condition>
+				<RuleConditionReference ConditionName="__Rule_ID973" />
+			</IfElseBranchActivity.Condition>
+			<ns0:FindActivity ListId="{}{0BB154A4-AAE3-4F65-BD81-DA9811EBAF0E}" x:Name="ID978" FieldName="Title" ReturnValue="{ActivityBind ROOT,Path=_x005f_Int3291}" ExternalFieldName="Title" __Context="{ActivityBind ROOT,Path=__context}" ExternalListId="{}{DA471114-2E01-4911-A0FD-9C945FD14177}" ListItem="{ActivityBind ROOT,Path=__item}" />
+			<ns0:LookupActivity ListId="{}{DA471114-2E01-4911-A0FD-9C945FD14177}" x:Name="ID977" FieldName="Comments" LookupFunction="LookupString" __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=_x005f_Int3291}">
+				<ns0:LookupActivity.ReturnValue>
+					<ActivityBind Name="ROOT" Path="_x005f_String94" />
+				</ns0:LookupActivity.ReturnValue>
+			</ns0:LookupActivity>
+			<ns0:SetFieldActivity x:Name="ID976" FieldName="Comments_x002d_Programming" __Context="{ActivityBind ROOT,Path=__context}" __ListId="{ActivityBind ROOT,Path=__list}" __ListItem="{ActivityBind ROOT,Path=__item}">
+				<ns0:SetFieldActivity.Value>
+					<ActivityBind Name="ROOT" Path="_x005f_String94" />
+				</ns0:SetFieldActivity.Value>
+			</ns0:SetFieldActivity>
+		</IfElseBranchActivity>
+		<IfElseBranchActivity x:Name="ID981">
+			<IfElseBranchActivity.Condition>
+				<RuleConditionReference ConditionName="__Rule_ID981" />
+			</IfElseBranchActivity.Condition>
+		</IfElseBranchActivity>
+	</IfElseActivity>
+	<IfElseActivity x:Name="ID992" Description="Step 13 - On hold 1">
+		<IfElseBranchActivity x:Name="ID991">
+			<IfElseBranchActivity.Condition>
+				<RuleConditionReference ConditionName="__Rule_ID991" />
+			</IfElseBranchActivity.Condition>
+			<ns0:FindActivity ListId="{}{0BB154A4-AAE3-4F65-BD81-DA9811EBAF0E}" x:Name="ID996" FieldName="Title" ReturnValue="{ActivityBind ROOT,Path=_x005f_Int3292}" ExternalFieldName="Title" __Context="{ActivityBind ROOT,Path=__context}" ExternalListId="{}{340B4FD0-3E54-4FED-8045-29AFFA3B876C}" ListItem="{ActivityBind ROOT,Path=__item}" />
+			<ns0:LookupActivity ListId="{}{340B4FD0-3E54-4FED-8045-29AFFA3B876C}" x:Name="ID995" FieldName="Job_x0020_on_x0020_Hold" LookupFunction="LookupString" __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=_x005f_Int3292}">
+				<ns0:LookupActivity.ReturnValue>
+					<ActivityBind Name="ROOT" Path="_x005f_String95" />
+				</ns0:LookupActivity.ReturnValue>
+			</ns0:LookupActivity>
+			<ns0:SetFieldActivity x:Name="ID994" FieldName="Job_x0020_on_x0020_Hold" __Context="{ActivityBind ROOT,Path=__context}" __ListId="{ActivityBind ROOT,Path=__list}" __ListItem="{ActivityBind ROOT,Path=__item}">
+				<ns0:SetFieldActivity.Value>
+					<ActivityBind Name="ROOT" Path="_x005f_String95" />
+				</ns0:SetFieldActivity.Value>
+			</ns0:SetFieldActivity>
+		</IfElseBranchActivity>
+		<IfElseBranchActivity x:Name="ID998">
+			<IfElseBranchActivity.Condition>
+				<RuleConditionReference ConditionName="__Rule_ID998" />
+			</IfElseBranchActivity.Condition>
+		</IfElseBranchActivity>
+	</IfElseActivity>
+	<IfElseActivity x:Name="ID1001" Description="Step 14 - On hold 2">
+		<IfElseBranchActivity x:Name="ID1000">
+			<IfElseBranchActivity.Condition>
+				<RuleConditionReference ConditionName="__Rule_ID1000" />
+			</IfElseBranchActivity.Condition>
+			<ns0:LookupActivity ListId="{}{0BB154A4-AAE3-4F65-BD81-DA9811EBAF0E}" x:Name="ID1016" FieldName="Title" LookupFunction="LookupFriendlyString" __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=__item}">
+				<ns0:LookupActivity.ReturnValue>
+					<ActivityBind Name="ROOT" Path="_x005f_String97" />
+				</ns0:LookupActivity.ReturnValue>
+			</ns0:LookupActivity>
+			<ns0:LookupActivity ListId="{}{0BB154A4-AAE3-4F65-BD81-DA9811EBAF0E}" x:Name="ID1017" FieldName="Qty_x0020_Ran" LookupFunction="LookupFriendlyString" __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=__item}">
+				<ns0:LookupActivity.ReturnValue>
+					<ActivityBind Name="ROOT" Path="_x005f_String98" />
+				</ns0:LookupActivity.ReturnValue>
+			</ns0:LookupActivity>
+			<ns0:BuildStringActivity x:Name="ID1010" Variable="{ActivityBind ROOT,Path=variable4}" StringValue="Error: Job No. [%_x005f_String97%] is on hold. Qty of [%_x005f_String98%] at SMT Operation SS will not be processed." />
+			<ns0:ClearArrayListActivity x:Name="ID1077" ReturnValue="{ActivityBind ROOT,Path=_x005f_ArrayList3}" />
+			<ns0:LookupActivity ListId="{}{0BB154A4-AAE3-4F65-BD81-DA9811EBAF0E}" x:Name="ID1079" FieldName="Editor" LookupFunction="LookupUser" __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=__item}">
+				<ns0:LookupActivity.ReturnValue>
+					<ActivityBind Name="ROOT" Path="_x005f_String96" />
+				</ns0:LookupActivity.ReturnValue>
+			</ns0:LookupActivity>
+			<ns0:AddToArrayListActivity x:Name="ID1078" Value="{ActivityBind ROOT,Path=_x005f_String96}" ReturnValue="{ActivityBind ROOT,Path=_x005f_ArrayList3}" />
+			<ns0:ClearArrayListActivity x:Name="ID1080" ReturnValue="{ActivityBind ROOT,Path=_x005f_ArrayList4}" />
+			<ns0:AddToArrayListActivity x:Name="ID1081" Value="DORIGO\steven" ReturnValue="{ActivityBind ROOT,Path=_x005f_ArrayList4}" />
+			<ns0:AddToArrayListActivity x:Name="ID1082" Value="DORIGO\craig" ReturnValue="{ActivityBind ROOT,Path=_x005f_ArrayList4}" />
+			<ns0:EmailActivity BCC="{x:Null}" x:Name="ID1006" CC="{ActivityBind ROOT,Path=_x005f_ArrayList4}" Body="Please check with Operations if you have any questions" To="{ActivityBind ROOT,Path=_x005f_ArrayList3}" __Context="{ActivityBind ROOT,Path=__context}" Subject="{ActivityBind ROOT,Path=variable4}" />
+			<TerminateActivity x:Name="ID1093" Error="Job on hold" />
+		</IfElseBranchActivity>
+		<IfElseBranchActivity x:Name="ID1004">
+			<IfElseBranchActivity.Condition>
+				<RuleConditionReference ConditionName="__Rule_ID1004" />
+			</IfElseBranchActivity.Condition>
+		</IfElseBranchActivity>
+	</IfElseActivity>
+	<IfElseActivity x:Name="ID563" Description="Step 15 - Qty Proc">
+		<IfElseBranchActivity x:Name="ID562">
+			<IfElseBranchActivity.Condition>
+				<RuleConditionReference ConditionName="__Rule_ID562" />
+			</IfElseBranchActivity.Condition>
+			<ns0:LookupActivity ListId="{}{0BB154A4-AAE3-4F65-BD81-DA9811EBAF0E}" x:Name="ID1105" FieldName="Qty_x0020_In" LookupFunction="LookupDouble" __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=__item}">
+				<ns0:LookupActivity.ReturnValue>
+					<ActivityBind Name="ROOT" Path="_x005f_Double32" />
+				</ns0:LookupActivity.ReturnValue>
+			</ns0:LookupActivity>
+			<ns0:LookupActivity ListId="{}{0BB154A4-AAE3-4F65-BD81-DA9811EBAF0E}" x:Name="ID1106" FieldName="Qty_x0020_Compl" LookupFunction="LookupDouble" __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=__item}">
+				<ns0:LookupActivity.ReturnValue>
+					<ActivityBind Name="ROOT" Path="_x005f_Double33" />
+				</ns0:LookupActivity.ReturnValue>
+			</ns0:LookupActivity>
+			<ns0:MathActivity x:Name="ID1104" ValueType="System.Double" Operator="sub">
+				<ns0:MathActivity.Variable>
+					<ActivityBind Name="ROOT" Path="QtyLeft" />
+				</ns0:MathActivity.Variable>
+				<ns0:MathActivity.Operand1>
+					<ActivityBind Name="ROOT" Path="_x005f_Double32" />
+				</ns0:MathActivity.Operand1>
+				<ns0:MathActivity.Operand2>
+					<ActivityBind Name="ROOT" Path="_x005f_Double33" />
+				</ns0:MathActivity.Operand2>
+			</ns0:MathActivity>
+			<ns0:LookupActivity ListId="{}{0BB154A4-AAE3-4F65-BD81-DA9811EBAF0E}" x:Name="ID566" FieldName="Qty_x0020_Ran" LookupFunction="LookupDouble" __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=__item}">
+				<ns0:LookupActivity.ReturnValue>
+					<ActivityBind Name="ROOT" Path="_x005f_Double16" />
+				</ns0:LookupActivity.ReturnValue>
+			</ns0:LookupActivity>
+			<ns0:LookupActivity ListId="{}{0BB154A4-AAE3-4F65-BD81-DA9811EBAF0E}" x:Name="ID567" FieldName="Qty_x0020_Compl" LookupFunction="LookupDouble" __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=__item}">
+				<ns0:LookupActivity.ReturnValue>
+					<ActivityBind Name="ROOT" Path="_x005f_Double17" />
+				</ns0:LookupActivity.ReturnValue>
+			</ns0:LookupActivity>
+			<ns0:MathActivity x:Name="ID565" ValueType="System.Double" Operator="add">
+				<ns0:MathActivity.Variable>
+					<ActivityBind Name="ROOT" Path="calc" />
+				</ns0:MathActivity.Variable>
+				<ns0:MathActivity.Operand1>
+					<ActivityBind Name="ROOT" Path="_x005f_Double16" />
+				</ns0:MathActivity.Operand1>
+				<ns0:MathActivity.Operand2>
+					<ActivityBind Name="ROOT" Path="_x005f_Double17" />
+				</ns0:MathActivity.Operand2>
+			</ns0:MathActivity>
+			<ns0:SetFieldActivity x:Name="ID568" FieldName="Qty_x0020_Compl" __Context="{ActivityBind ROOT,Path=__context}" __ListId="{ActivityBind ROOT,Path=__list}" __ListItem="{ActivityBind ROOT,Path=__item}">
+				<ns0:SetFieldActivity.Value>
+					<ActivityBind Name="ROOT" Path="calc" />
+				</ns0:SetFieldActivity.Value>
+			</ns0:SetFieldActivity>
+			<ns0:LookupActivity ListId="{}{0BB154A4-AAE3-4F65-BD81-DA9811EBAF0E}" x:Name="ID1109" FieldName="Qty_x0020_Ran" LookupFunction="LookupDouble" __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=__item}">
+				<ns0:LookupActivity.ReturnValue>
+					<ActivityBind Name="ROOT" Path="_x005f_Double34" />
+				</ns0:LookupActivity.ReturnValue>
+			</ns0:LookupActivity>
+			<ns0:MathActivity x:Name="ID1108" ValueType="System.Double" Operator="sub">
+				<ns0:MathActivity.Variable>
+					<ActivityBind Name="ROOT" Path="calc" />
+				</ns0:MathActivity.Variable>
+				<ns0:MathActivity.Operand1>
+					<ActivityBind Name="ROOT" Path="QtyLeft" />
+				</ns0:MathActivity.Operand1>
+				<ns0:MathActivity.Operand2>
+					<ActivityBind Name="ROOT" Path="_x005f_Double34" />
+				</ns0:MathActivity.Operand2>
+			</ns0:MathActivity>
+			<ns0:SetFieldActivity x:Name="ID1110" FieldName="Qty_x0020_Left_x002e_" __Context="{ActivityBind ROOT,Path=__context}" __ListId="{ActivityBind ROOT,Path=__list}" __ListItem="{ActivityBind ROOT,Path=__item}">
+				<ns0:SetFieldActivity.Value>
+					<ActivityBind Name="ROOT" Path="calc" />
+				</ns0:SetFieldActivity.Value>
+			</ns0:SetFieldActivity>
+			<ns0:ClearHashtableActivity Collection="{ActivityBind ROOT,Path=_x005f_Hashtable57}" x:Name="ID1031" />
+			<ns0:LookupActivity ListId="{}{0BB154A4-AAE3-4F65-BD81-DA9811EBAF0E}" x:Name="ID1033" FieldName="Title" LookupFunction="LookupString" __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=__item}">
+				<ns0:LookupActivity.ReturnValue>
+					<ActivityBind Name="ROOT" Path="_x005f_String82" />
+				</ns0:LookupActivity.ReturnValue>
+			</ns0:LookupActivity>
+			<ns0:AddToHashtableActivity x:Name="ID1032" Collection="{ActivityBind ROOT,Path=_x005f_Hashtable57}" Key="Title" ValueType="System.String">
+				<ns0:AddToHashtableActivity.Value>
+					<ActivityBind Name="ROOT" Path="_x005f_String82" />
+				</ns0:AddToHashtableActivity.Value>
+			</ns0:AddToHashtableActivity>
+			<ns0:FindActivity ListId="{}{0BB154A4-AAE3-4F65-BD81-DA9811EBAF0E}" x:Name="ID1036" FieldName="Title" ReturnValue="{ActivityBind ROOT,Path=_x005f_Int3294}" ExternalFieldName="Title" __Context="{ActivityBind ROOT,Path=__context}" ExternalListId="{}{340B4FD0-3E54-4FED-8045-29AFFA3B876C}" ListItem="{ActivityBind ROOT,Path=__item}" />
+			<ns0:LookupActivity ListId="{}{340B4FD0-3E54-4FED-8045-29AFFA3B876C}" x:Name="ID1035" FieldName="Customer" LookupFunction="LookupFriendlyString" __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=_x005f_Int3294}">
+				<ns0:LookupActivity.ReturnValue>
+					<ActivityBind Name="ROOT" Path="_x005f_String83" />
+				</ns0:LookupActivity.ReturnValue>
+			</ns0:LookupActivity>
+			<ns0:AddToHashtableActivity x:Name="ID1034" Collection="{ActivityBind ROOT,Path=_x005f_Hashtable57}" Key="Customer" ValueType="System.String">
+				<ns0:AddToHashtableActivity.Value>
+					<ActivityBind Name="ROOT" Path="_x005f_String83" />
+				</ns0:AddToHashtableActivity.Value>
+			</ns0:AddToHashtableActivity>
+			<ns0:LookupActivity ListId="{}{0BB154A4-AAE3-4F65-BD81-DA9811EBAF0E}" x:Name="ID1038" FieldName="Dorigo_x0020_Assy_x0023_" LookupFunction="LookupString" __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=__item}">
+				<ns0:LookupActivity.ReturnValue>
+					<ActivityBind Name="ROOT" Path="_x005f_String84" />
+				</ns0:LookupActivity.ReturnValue>
+			</ns0:LookupActivity>
+			<ns0:AddToHashtableActivity x:Name="ID1037" Collection="{ActivityBind ROOT,Path=_x005f_Hashtable57}" Key="Dorigo_x0020_Assy_x0020_ID" ValueType="System.String">
+				<ns0:AddToHashtableActivity.Value>
+					<ActivityBind Name="ROOT" Path="_x005f_String84" />
+				</ns0:AddToHashtableActivity.Value>
+			</ns0:AddToHashtableActivity>
+			<ns0:AddToHashtableActivity x:Name="ID1039" Collection="{ActivityBind ROOT,Path=_x005f_Hashtable57}" Key="From_x0020_Proc" ValueType="System.String">
+				<ns0:AddToHashtableActivity.Value>
+					<ns1:String xmlns:ns1="clr-namespace:System;Assembly=mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">SMT Oper SS</ns1:String>
+				</ns0:AddToHashtableActivity.Value>
+			</ns0:AddToHashtableActivity>
+			<ns0:LookupActivity ListId="{}{0BB154A4-AAE3-4F65-BD81-DA9811EBAF0E}" x:Name="ID1041" FieldName="Next_x0020_Proc" LookupFunction="LookupString" __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=__item}">
+				<ns0:LookupActivity.ReturnValue>
+					<ActivityBind Name="ROOT" Path="_x005f_String85" />
+				</ns0:LookupActivity.ReturnValue>
+			</ns0:LookupActivity>
+			<ns0:AddToHashtableActivity x:Name="ID1040" Collection="{ActivityBind ROOT,Path=_x005f_Hashtable57}" Key="Next_x0020_Proc" ValueType="System.String">
+				<ns0:AddToHashtableActivity.Value>
+					<ActivityBind Name="ROOT" Path="_x005f_String85" />
+				</ns0:AddToHashtableActivity.Value>
+			</ns0:AddToHashtableActivity>
+			<ns0:LookupActivity ListId="{}{0BB154A4-AAE3-4F65-BD81-DA9811EBAF0E}" x:Name="ID1043" FieldName="Qty_x0020_Ran" LookupFunction="LookupDouble" __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=__item}">
+				<ns0:LookupActivity.ReturnValue>
+					<ActivityBind Name="ROOT" Path="_x005f_Double29" />
+				</ns0:LookupActivity.ReturnValue>
+			</ns0:LookupActivity>
+			<ns0:AddToHashtableActivity x:Name="ID1042" Collection="{ActivityBind ROOT,Path=_x005f_Hashtable57}" Key="Qty_x0020_Moved" ValueType="System.Double">
+				<ns0:AddToHashtableActivity.Value>
+					<ActivityBind Name="ROOT" Path="_x005f_Double29" />
+				</ns0:AddToHashtableActivity.Value>
+			</ns0:AddToHashtableActivity>
+			<ns0:LookupActivity ListId="{}{0BB154A4-AAE3-4F65-BD81-DA9811EBAF0E}" x:Name="ID1045" FieldName="Modified" LookupFunction="LookupFriendlyString" __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=__item}">
+				<ns0:LookupActivity.ReturnValue>
+					<ActivityBind Name="ROOT" Path="_x005f_String86" />
+				</ns0:LookupActivity.ReturnValue>
+			</ns0:LookupActivity>
+			<ns0:AddToHashtableActivity x:Name="ID1044" Collection="{ActivityBind ROOT,Path=_x005f_Hashtable57}" Key="Timestamp" ValueType="System.String">
+				<ns0:AddToHashtableActivity.Value>
+					<ActivityBind Name="ROOT" Path="_x005f_String86" />
+				</ns0:AddToHashtableActivity.Value>
+			</ns0:AddToHashtableActivity>
+			<ns0:LookupActivity ListId="{}{0BB154A4-AAE3-4F65-BD81-DA9811EBAF0E}" x:Name="ID1047" FieldName="Modified" LookupFunction="LookupDateTime" __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=__item}">
+				<ns0:LookupActivity.ReturnValue>
+					<ActivityBind Name="ROOT" Path="_x005f_DateTime2" />
+				</ns0:LookupActivity.ReturnValue>
+			</ns0:LookupActivity>
+			<ns0:AddToHashtableActivity x:Name="ID1046" Collection="{ActivityBind ROOT,Path=_x005f_Hashtable57}" Key="Action_x0020_Date_x002e_" ValueType="System.DateTime">
+				<ns0:AddToHashtableActivity.Value>
+					<ActivityBind Name="ROOT" Path="_x005f_DateTime2" />
+				</ns0:AddToHashtableActivity.Value>
+			</ns0:AddToHashtableActivity>
+			<ns0:CreateItemActivity ListId="{}{6FAE6526-8319-4600-A061-AAFA4A346D45}" x:Name="ID790" Overwrite="False" __Context="{ActivityBind ROOT,Path=__context}" ItemProperties="{ActivityBind ROOT,Path=_x005f_Hashtable57}" NewItemId="{ActivityBind ROOT,Path=create3}" />
+			<ns0:SetFieldActivity x:Name="ID569" FieldName="Qty_x0020_Ran" __Context="{ActivityBind ROOT,Path=__context}" __ListId="{ActivityBind ROOT,Path=__list}" __ListItem="{ActivityBind ROOT,Path=__item}">
+				<ns0:SetFieldActivity.Value>
+					<ns1:Double xmlns:ns1="clr-namespace:System;Assembly=mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">0</ns1:Double>
+				</ns0:SetFieldActivity.Value>
+			</ns0:SetFieldActivity>
+			<ns0:FindActivity ListId="{}{0BB154A4-AAE3-4F65-BD81-DA9811EBAF0E}" x:Name="ID1116" FieldName="Title" ReturnValue="{ActivityBind ROOT,Path=_x005f_Int3296}" ExternalFieldName="Title" __Context="{ActivityBind ROOT,Path=__context}" ExternalListId="{}{DCE2CB78-DA74-4EA7-B8D8-5405960D5E36}" ListItem="{ActivityBind ROOT,Path=__item}" />
+			<ns0:ClearHashtableActivity Collection="{ActivityBind ROOT,Path=_x005f_Hashtable40}" x:Name="ID1117" />
+			<ns0:AddToHashtableActivity x:Name="ID1118" Collection="{ActivityBind ROOT,Path=_x005f_Hashtable40}" Key="SMT_x002d_Bot" ValueType="System.Double">
+				<ns0:AddToHashtableActivity.Value>
+					<ActivityBind Name="ROOT" Path="calc" />
+				</ns0:AddToHashtableActivity.Value>
+			</ns0:AddToHashtableActivity>
+			<ns0:UpdateItemActivity __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=_x005f_Int3296}" ItemProperties="{ActivityBind ROOT,Path=_x005f_Hashtable40}" ListId="{}{DCE2CB78-DA74-4EA7-B8D8-5405960D5E36}" x:Name="ID1115" />
+		</IfElseBranchActivity>
+		<IfElseBranchActivity x:Name="ID571">
+			<IfElseBranchActivity.Condition>
+				<RuleConditionReference ConditionName="__Rule_ID571" />
+			</IfElseBranchActivity.Condition>
+			<ns0:LookupActivity ListId="{}{0BB154A4-AAE3-4F65-BD81-DA9811EBAF0E}" x:Name="ID1112" FieldName="Qty_x0020_In" LookupFunction="LookupDouble" __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=__item}">
+				<ns0:LookupActivity.ReturnValue>
+					<ActivityBind Name="ROOT" Path="_x005f_Double35" />
+				</ns0:LookupActivity.ReturnValue>
+			</ns0:LookupActivity>
+			<ns0:LookupActivity ListId="{}{0BB154A4-AAE3-4F65-BD81-DA9811EBAF0E}" x:Name="ID1113" FieldName="Qty_x0020_Compl" LookupFunction="LookupDouble" __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=__item}">
+				<ns0:LookupActivity.ReturnValue>
+					<ActivityBind Name="ROOT" Path="_x005f_Double36" />
+				</ns0:LookupActivity.ReturnValue>
+			</ns0:LookupActivity>
+			<ns0:MathActivity x:Name="ID1111" ValueType="System.Double" Operator="sub">
+				<ns0:MathActivity.Variable>
+					<ActivityBind Name="ROOT" Path="QtyLeft" />
+				</ns0:MathActivity.Variable>
+				<ns0:MathActivity.Operand1>
+					<ActivityBind Name="ROOT" Path="_x005f_Double35" />
+				</ns0:MathActivity.Operand1>
+				<ns0:MathActivity.Operand2>
+					<ActivityBind Name="ROOT" Path="_x005f_Double36" />
+				</ns0:MathActivity.Operand2>
+			</ns0:MathActivity>
+			<ns0:SetFieldActivity x:Name="ID1114" FieldName="Qty_x0020_Left_x002e_" __Context="{ActivityBind ROOT,Path=__context}" __ListId="{ActivityBind ROOT,Path=__list}" __ListItem="{ActivityBind ROOT,Path=__item}">
+				<ns0:SetFieldActivity.Value>
+					<ActivityBind Name="ROOT" Path="QtyLeft" />
+				</ns0:SetFieldActivity.Value>
+			</ns0:SetFieldActivity>
+		</IfElseBranchActivity>
+	</IfElseActivity>
+	<IfElseActivity x:Name="ID70" Description="Step 16 - To Next">
+		<IfElseBranchActivity x:Name="ID69">
+			<IfElseBranchActivity.Condition>
+				<RuleConditionReference ConditionName="__Rule_ID69" />
+			</IfElseBranchActivity.Condition>
+			<ns0:LogToHistoryListActivity x:Name="ID488" OtherData="{x:Null}" HistoryDescription="Next 1 OK" HistoryOutcome="{x:Null}" UserId="0" Duration="00:00:00" EventId="None" />
+		</IfElseBranchActivity>
+		<IfElseBranchActivity x:Name="ID72">
+			<IfElseBranchActivity.Condition>
+				<RuleConditionReference ConditionName="__Rule_ID72" />
+			</IfElseBranchActivity.Condition>
+			<ns0:FindActivity ListId="{}{0BB154A4-AAE3-4F65-BD81-DA9811EBAF0E}" x:Name="ID74" FieldName="Title" ReturnValue="{ActivityBind ROOT,Path=_x005f_Int3211}" ExternalFieldName="Title" __Context="{ActivityBind ROOT,Path=__context}" ExternalListId="{}{8202749A-817F-44D1-ADC2-DC86ED112154}" ListItem="{ActivityBind ROOT,Path=__item}" />
+			<ns0:ClearHashtableActivity Collection="{ActivityBind ROOT,Path=_x005f_Hashtable3}" x:Name="ID75" />
+			<ns0:LookupActivity ListId="{}{0BB154A4-AAE3-4F65-BD81-DA9811EBAF0E}" x:Name="ID77" FieldName="Qty_x0020_Compl" LookupFunction="LookupDouble" __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=__item}">
+				<ns0:LookupActivity.ReturnValue>
+					<ActivityBind Name="ROOT" Path="_x005f_Double2" />
+				</ns0:LookupActivity.ReturnValue>
+			</ns0:LookupActivity>
+			<ns0:AddToHashtableActivity x:Name="ID76" Collection="{ActivityBind ROOT,Path=_x005f_Hashtable3}" Key="Qty_x0020_In" ValueType="System.Double">
+				<ns0:AddToHashtableActivity.Value>
+					<ActivityBind Name="ROOT" Path="_x005f_Double2" />
+				</ns0:AddToHashtableActivity.Value>
+			</ns0:AddToHashtableActivity>
+			<ns0:UpdateItemActivity __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=_x005f_Int3211}" ItemProperties="{ActivityBind ROOT,Path=_x005f_Hashtable3}" ListId="{}{8202749A-817F-44D1-ADC2-DC86ED112154}" x:Name="ID73" />
+		</IfElseBranchActivity>
+		<IfElseBranchActivity x:Name="ID78">
+			<IfElseBranchActivity.Condition>
+				<RuleConditionReference ConditionName="__Rule_ID78" />
+			</IfElseBranchActivity.Condition>
+			<ns0:FindActivity ListId="{}{0BB154A4-AAE3-4F65-BD81-DA9811EBAF0E}" x:Name="ID1023" FieldName="Title" ReturnValue="{ActivityBind ROOT,Path=_x005f_Int3212}" ExternalFieldName="Title" __Context="{ActivityBind ROOT,Path=__context}" ExternalListId="{}{A191EA90-C8FB-4237-94AD-B99F28E1DBB6}" ListItem="{ActivityBind ROOT,Path=__item}" />
+			<ns0:ClearHashtableActivity Collection="{ActivityBind ROOT,Path=_x005f_Hashtable4}" x:Name="ID1024" />
+			<ns0:LookupActivity ListId="{}{0BB154A4-AAE3-4F65-BD81-DA9811EBAF0E}" x:Name="ID1026" FieldName="Qty_x0020_Compl" LookupFunction="LookupDouble" __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=__item}">
+				<ns0:LookupActivity.ReturnValue>
+					<ActivityBind Name="ROOT" Path="_x005f_Double3" />
+				</ns0:LookupActivity.ReturnValue>
+			</ns0:LookupActivity>
+			<ns0:AddToHashtableActivity x:Name="ID1025" Collection="{ActivityBind ROOT,Path=_x005f_Hashtable4}" Key="Qty_x0020_In" ValueType="System.Double">
+				<ns0:AddToHashtableActivity.Value>
+					<ActivityBind Name="ROOT" Path="_x005f_Double3" />
+				</ns0:AddToHashtableActivity.Value>
+			</ns0:AddToHashtableActivity>
+			<ns0:LookupActivity ListId="{}{0BB154A4-AAE3-4F65-BD81-DA9811EBAF0E}" x:Name="ID1028" FieldName="Comments" LookupFunction="LookupString" __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=__item}">
+				<ns0:LookupActivity.ReturnValue>
+					<ActivityBind Name="ROOT" Path="_x005f_String99" />
+				</ns0:LookupActivity.ReturnValue>
+			</ns0:LookupActivity>
+			<ns0:AddToHashtableActivity x:Name="ID1027" Collection="{ActivityBind ROOT,Path=_x005f_Hashtable4}" Key="Comments" ValueType="System.String">
+				<ns0:AddToHashtableActivity.Value>
+					<ActivityBind Name="ROOT" Path="_x005f_String99" />
+				</ns0:AddToHashtableActivity.Value>
+			</ns0:AddToHashtableActivity>
+			<ns0:UpdateItemActivity __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=_x005f_Int3212}" ItemProperties="{ActivityBind ROOT,Path=_x005f_Hashtable4}" ListId="{}{A191EA90-C8FB-4237-94AD-B99F28E1DBB6}" x:Name="ID79" />
+		</IfElseBranchActivity>
+		<IfElseBranchActivity x:Name="ID320">
+			<IfElseBranchActivity.Condition>
+				<RuleConditionReference ConditionName="__Rule_ID320" />
+			</IfElseBranchActivity.Condition>
+			<ns0:FindActivity ListId="{}{0BB154A4-AAE3-4F65-BD81-DA9811EBAF0E}" x:Name="ID322" FieldName="Title" ReturnValue="{ActivityBind ROOT,Path=_x005f_Int3257}" ExternalFieldName="Title" __Context="{ActivityBind ROOT,Path=__context}" ExternalListId="{}{13647166-8A6D-4933-8C18-532D972F4DEE}" ListItem="{ActivityBind ROOT,Path=__item}" />
+			<ns0:ClearHashtableActivity Collection="{ActivityBind ROOT,Path=_x005f_Hashtable28}" x:Name="ID323" />
+			<ns0:LookupActivity ListId="{}{0BB154A4-AAE3-4F65-BD81-DA9811EBAF0E}" x:Name="ID325" FieldName="Qty_x0020_Compl" LookupFunction="LookupDouble" __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=__item}">
+				<ns0:LookupActivity.ReturnValue>
+					<ActivityBind Name="ROOT" Path="_x005f_Double5" />
+				</ns0:LookupActivity.ReturnValue>
+			</ns0:LookupActivity>
+			<ns0:AddToHashtableActivity x:Name="ID324" Collection="{ActivityBind ROOT,Path=_x005f_Hashtable28}" Key="Qty_x0020_In" ValueType="System.Double">
+				<ns0:AddToHashtableActivity.Value>
+					<ActivityBind Name="ROOT" Path="_x005f_Double5" />
+				</ns0:AddToHashtableActivity.Value>
+			</ns0:AddToHashtableActivity>
+			<ns0:UpdateItemActivity __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=_x005f_Int3257}" ItemProperties="{ActivityBind ROOT,Path=_x005f_Hashtable28}" ListId="{}{13647166-8A6D-4933-8C18-532D972F4DEE}" x:Name="ID321" />
+		</IfElseBranchActivity>
+		<IfElseBranchActivity x:Name="ID326">
+			<IfElseBranchActivity.Condition>
+				<RuleConditionReference ConditionName="__Rule_ID326" />
+			</IfElseBranchActivity.Condition>
+			<ns0:FindActivity ListId="{}{0BB154A4-AAE3-4F65-BD81-DA9811EBAF0E}" x:Name="ID328" FieldName="Title" ReturnValue="{ActivityBind ROOT,Path=_x005f_Int3258}" ExternalFieldName="Title" __Context="{ActivityBind ROOT,Path=__context}" ExternalListId="{}{CD76B066-53FD-47A7-8F89-CFA5146805CF}" ListItem="{ActivityBind ROOT,Path=__item}" />
+			<ns0:ClearHashtableActivity Collection="{ActivityBind ROOT,Path=_x005f_Hashtable29}" x:Name="ID329" />
+			<ns0:LookupActivity ListId="{}{0BB154A4-AAE3-4F65-BD81-DA9811EBAF0E}" x:Name="ID331" FieldName="Qty_x0020_Compl" LookupFunction="LookupFriendlyString" __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=__item}">
+				<ns0:LookupActivity.ReturnValue>
+					<ActivityBind Name="ROOT" Path="_x005f_String52" />
+				</ns0:LookupActivity.ReturnValue>
+			</ns0:LookupActivity>
+			<ns0:AddToHashtableActivity x:Name="ID330" Collection="{ActivityBind ROOT,Path=_x005f_Hashtable29}" Key="Qty_x0020_In" ValueType="System.String">
+				<ns0:AddToHashtableActivity.Value>
+					<ActivityBind Name="ROOT" Path="_x005f_String52" />
+				</ns0:AddToHashtableActivity.Value>
+			</ns0:AddToHashtableActivity>
+			<ns0:UpdateItemActivity __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=_x005f_Int3258}" ItemProperties="{ActivityBind ROOT,Path=_x005f_Hashtable29}" ListId="{}{CD76B066-53FD-47A7-8F89-CFA5146805CF}" x:Name="ID327" />
+		</IfElseBranchActivity>
+		<IfElseBranchActivity x:Name="ID332">
+			<IfElseBranchActivity.Condition>
+				<RuleConditionReference ConditionName="__Rule_ID332" />
+			</IfElseBranchActivity.Condition>
+			<ns0:FindActivity ListId="{}{0BB154A4-AAE3-4F65-BD81-DA9811EBAF0E}" x:Name="ID334" FieldName="Title" ReturnValue="{ActivityBind ROOT,Path=_x005f_Int3259}" ExternalFieldName="Title" __Context="{ActivityBind ROOT,Path=__context}" ExternalListId="{}{399CC3F5-C797-403C-8B69-8FB5577B7A6B}" ListItem="{ActivityBind ROOT,Path=__item}" />
+			<ns0:ClearHashtableActivity Collection="{ActivityBind ROOT,Path=_x005f_Hashtable30}" x:Name="ID335" />
+			<ns0:LookupActivity ListId="{}{0BB154A4-AAE3-4F65-BD81-DA9811EBAF0E}" x:Name="ID337" FieldName="Qty_x0020_Compl" LookupFunction="LookupFriendlyString" __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=__item}">
+				<ns0:LookupActivity.ReturnValue>
+					<ActivityBind Name="ROOT" Path="_x005f_String53" />
+				</ns0:LookupActivity.ReturnValue>
+			</ns0:LookupActivity>
+			<ns0:AddToHashtableActivity x:Name="ID336" Collection="{ActivityBind ROOT,Path=_x005f_Hashtable30}" Key="Qty_x0020_In" ValueType="System.String">
+				<ns0:AddToHashtableActivity.Value>
+					<ActivityBind Name="ROOT" Path="_x005f_String53" />
+				</ns0:AddToHashtableActivity.Value>
+			</ns0:AddToHashtableActivity>
+			<ns0:UpdateItemActivity __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=_x005f_Int3259}" ItemProperties="{ActivityBind ROOT,Path=_x005f_Hashtable30}" ListId="{}{399CC3F5-C797-403C-8B69-8FB5577B7A6B}" x:Name="ID333" />
+		</IfElseBranchActivity>
+		<IfElseBranchActivity x:Name="ID338">
+			<IfElseBranchActivity.Condition>
+				<RuleConditionReference ConditionName="__Rule_ID338" />
+			</IfElseBranchActivity.Condition>
+			<ns0:FindActivity ListId="{}{0BB154A4-AAE3-4F65-BD81-DA9811EBAF0E}" x:Name="ID358" FieldName="Title" ReturnValue="{ActivityBind ROOT,Path=_x005f_Int3262}" ExternalFieldName="Title" __Context="{ActivityBind ROOT,Path=__context}" ExternalListId="{}{D3277F7A-1188-46DE-8BDB-5E16701656DD}" ListItem="{ActivityBind ROOT,Path=__item}" />
+			<ns0:ClearHashtableActivity Collection="{ActivityBind ROOT,Path=_x005f_Hashtable32}" x:Name="ID359" />
+			<ns0:LookupActivity ListId="{}{0BB154A4-AAE3-4F65-BD81-DA9811EBAF0E}" x:Name="ID361" FieldName="Qty_x0020_Compl" LookupFunction="LookupFriendlyString" __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=__item}">
+				<ns0:LookupActivity.ReturnValue>
+					<ActivityBind Name="ROOT" Path="_x005f_String56" />
+				</ns0:LookupActivity.ReturnValue>
+			</ns0:LookupActivity>
+			<ns0:AddToHashtableActivity x:Name="ID360" Collection="{ActivityBind ROOT,Path=_x005f_Hashtable32}" Key="Qty_x0020_In" ValueType="System.String">
+				<ns0:AddToHashtableActivity.Value>
+					<ActivityBind Name="ROOT" Path="_x005f_String56" />
+				</ns0:AddToHashtableActivity.Value>
+			</ns0:AddToHashtableActivity>
+			<ns0:UpdateItemActivity __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=_x005f_Int3262}" ItemProperties="{ActivityBind ROOT,Path=_x005f_Hashtable32}" ListId="{}{D3277F7A-1188-46DE-8BDB-5E16701656DD}" x:Name="ID357" />
+		</IfElseBranchActivity>
+		<IfElseBranchActivity x:Name="ID383">
+			<IfElseBranchActivity.Condition>
+				<RuleConditionReference ConditionName="__Rule_ID383" />
+			</IfElseBranchActivity.Condition>
+			<ns0:FindActivity ListId="{}{0BB154A4-AAE3-4F65-BD81-DA9811EBAF0E}" x:Name="ID385" FieldName="Title" ReturnValue="{ActivityBind ROOT,Path=_x005f_Int3266}" ExternalFieldName="Title" __Context="{ActivityBind ROOT,Path=__context}" ExternalListId="{}{A4F0BDDA-91A4-4F43-92E1-27C29BB2483F}" ListItem="{ActivityBind ROOT,Path=__item}" />
+			<ns0:ClearHashtableActivity Collection="{ActivityBind ROOT,Path=_x005f_Hashtable34}" x:Name="ID386" />
+			<ns0:LookupActivity ListId="{}{0BB154A4-AAE3-4F65-BD81-DA9811EBAF0E}" x:Name="ID388" FieldName="Qty_x0020_Compl" LookupFunction="LookupFriendlyString" __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=__item}">
+				<ns0:LookupActivity.ReturnValue>
+					<ActivityBind Name="ROOT" Path="_x005f_String59" />
+				</ns0:LookupActivity.ReturnValue>
+			</ns0:LookupActivity>
+			<ns0:AddToHashtableActivity x:Name="ID387" Collection="{ActivityBind ROOT,Path=_x005f_Hashtable34}" Key="Qty_x0020_In" ValueType="System.String">
+				<ns0:AddToHashtableActivity.Value>
+					<ActivityBind Name="ROOT" Path="_x005f_String59" />
+				</ns0:AddToHashtableActivity.Value>
+			</ns0:AddToHashtableActivity>
+			<ns0:UpdateItemActivity __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=_x005f_Int3266}" ItemProperties="{ActivityBind ROOT,Path=_x005f_Hashtable34}" ListId="{}{A4F0BDDA-91A4-4F43-92E1-27C29BB2483F}" x:Name="ID384" />
+		</IfElseBranchActivity>
+		<IfElseBranchActivity x:Name="ID389">
+			<IfElseBranchActivity.Condition>
+				<RuleConditionReference ConditionName="__Rule_ID389" />
+			</IfElseBranchActivity.Condition>
+			<ns0:FindActivity ListId="{}{0BB154A4-AAE3-4F65-BD81-DA9811EBAF0E}" x:Name="ID391" FieldName="Title" ReturnValue="{ActivityBind ROOT,Path=_x005f_Int3267}" ExternalFieldName="Title" __Context="{ActivityBind ROOT,Path=__context}" ExternalListId="{}{7F4945FD-C23B-4485-8449-2243BCBCAC65}" ListItem="{ActivityBind ROOT,Path=__item}" />
+			<ns0:ClearHashtableActivity Collection="{ActivityBind ROOT,Path=_x005f_Hashtable35}" x:Name="ID392" />
+			<ns0:LookupActivity ListId="{}{0BB154A4-AAE3-4F65-BD81-DA9811EBAF0E}" x:Name="ID394" FieldName="Qty_x0020_Compl" LookupFunction="LookupFriendlyString" __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=__item}">
+				<ns0:LookupActivity.ReturnValue>
+					<ActivityBind Name="ROOT" Path="_x005f_String60" />
+				</ns0:LookupActivity.ReturnValue>
+			</ns0:LookupActivity>
+			<ns0:AddToHashtableActivity x:Name="ID393" Collection="{ActivityBind ROOT,Path=_x005f_Hashtable35}" Key="Qty_x0020_In" ValueType="System.String">
+				<ns0:AddToHashtableActivity.Value>
+					<ActivityBind Name="ROOT" Path="_x005f_String60" />
+				</ns0:AddToHashtableActivity.Value>
+			</ns0:AddToHashtableActivity>
+			<ns0:UpdateItemActivity __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=_x005f_Int3267}" ItemProperties="{ActivityBind ROOT,Path=_x005f_Hashtable35}" ListId="{}{7F4945FD-C23B-4485-8449-2243BCBCAC65}" x:Name="ID390" />
+		</IfElseBranchActivity>
+		<IfElseBranchActivity x:Name="ID498">
+			<IfElseBranchActivity.Condition>
+				<RuleConditionReference ConditionName="__Rule_ID498" />
+			</IfElseBranchActivity.Condition>
+			<ns0:FindActivity ListId="{}{0BB154A4-AAE3-4F65-BD81-DA9811EBAF0E}" x:Name="ID500" FieldName="Title" ReturnValue="{ActivityBind ROOT,Path=_x005f_Int3268}" ExternalFieldName="Title" __Context="{ActivityBind ROOT,Path=__context}" ExternalListId="{}{9A50155F-0907-4305-BCCD-C9FEA73CBFEA}" ListItem="{ActivityBind ROOT,Path=__item}" />
+			<ns0:ClearHashtableActivity Collection="{ActivityBind ROOT,Path=_x005f_Hashtable38}" x:Name="ID501" />
+			<ns0:LookupActivity ListId="{}{0BB154A4-AAE3-4F65-BD81-DA9811EBAF0E}" x:Name="ID503" FieldName="Qty_x0020_Compl" LookupFunction="LookupFriendlyString" __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=__item}">
+				<ns0:LookupActivity.ReturnValue>
+					<ActivityBind Name="ROOT" Path="_x005f_String64" />
+				</ns0:LookupActivity.ReturnValue>
+			</ns0:LookupActivity>
+			<ns0:AddToHashtableActivity x:Name="ID502" Collection="{ActivityBind ROOT,Path=_x005f_Hashtable38}" Key="Qty_x0020_In" ValueType="System.String">
+				<ns0:AddToHashtableActivity.Value>
+					<ActivityBind Name="ROOT" Path="_x005f_String64" />
+				</ns0:AddToHashtableActivity.Value>
+			</ns0:AddToHashtableActivity>
+			<ns0:UpdateItemActivity __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=_x005f_Int3268}" ItemProperties="{ActivityBind ROOT,Path=_x005f_Hashtable38}" ListId="{}{9A50155F-0907-4305-BCCD-C9FEA73CBFEA}" x:Name="ID499" />
+		</IfElseBranchActivity>
+		<IfElseBranchActivity x:Name="ID505">
+			<IfElseBranchActivity.Condition>
+				<RuleConditionReference ConditionName="__Rule_ID505" />
+			</IfElseBranchActivity.Condition>
+			<ns0:FindActivity ListId="{}{0BB154A4-AAE3-4F65-BD81-DA9811EBAF0E}" x:Name="ID507" FieldName="Title" ReturnValue="{ActivityBind ROOT,Path=_x005f_Int3269}" ExternalFieldName="Title" __Context="{ActivityBind ROOT,Path=__context}" ExternalListId="{}{7ED4E855-17E6-4213-9B20-C283200C3228}" ListItem="{ActivityBind ROOT,Path=__item}" />
+			<ns0:ClearHashtableActivity Collection="{ActivityBind ROOT,Path=_x005f_Hashtable39}" x:Name="ID508" />
+			<ns0:LookupActivity ListId="{}{0BB154A4-AAE3-4F65-BD81-DA9811EBAF0E}" x:Name="ID510" FieldName="Qty_x0020_Compl" LookupFunction="LookupFriendlyString" __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=__item}">
+				<ns0:LookupActivity.ReturnValue>
+					<ActivityBind Name="ROOT" Path="_x005f_String65" />
+				</ns0:LookupActivity.ReturnValue>
+			</ns0:LookupActivity>
+			<ns0:AddToHashtableActivity x:Name="ID509" Collection="{ActivityBind ROOT,Path=_x005f_Hashtable39}" Key="Qty_x0020_In" ValueType="System.String">
+				<ns0:AddToHashtableActivity.Value>
+					<ActivityBind Name="ROOT" Path="_x005f_String65" />
+				</ns0:AddToHashtableActivity.Value>
+			</ns0:AddToHashtableActivity>
+			<ns0:UpdateItemActivity __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=_x005f_Int3269}" ItemProperties="{ActivityBind ROOT,Path=_x005f_Hashtable39}" ListId="{}{7ED4E855-17E6-4213-9B20-C283200C3228}" x:Name="ID506" />
+		</IfElseBranchActivity>
+		<IfElseBranchActivity x:Name="ID527">
+			<IfElseBranchActivity.Condition>
+				<RuleConditionReference ConditionName="__Rule_ID527" />
+			</IfElseBranchActivity.Condition>
+			<ns0:FindActivity ListId="{}{0BB154A4-AAE3-4F65-BD81-DA9811EBAF0E}" x:Name="ID529" FieldName="Title" ReturnValue="{ActivityBind ROOT,Path=_x005f_Int3271}" ExternalFieldName="Title" __Context="{ActivityBind ROOT,Path=__context}" ExternalListId="{}{AE677E3C-042E-448B-82CA-C0C3B0F553E2}" ListItem="{ActivityBind ROOT,Path=__item}" />
+			<ns0:ClearHashtableActivity Collection="{ActivityBind ROOT,Path=_x005f_Hashtable41}" x:Name="ID530" />
+			<ns0:LookupActivity ListId="{}{0BB154A4-AAE3-4F65-BD81-DA9811EBAF0E}" x:Name="ID532" FieldName="Qty_x0020_Compl" LookupFunction="LookupFriendlyString" __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=__item}">
+				<ns0:LookupActivity.ReturnValue>
+					<ActivityBind Name="ROOT" Path="_x005f_String67" />
+				</ns0:LookupActivity.ReturnValue>
+			</ns0:LookupActivity>
+			<ns0:AddToHashtableActivity x:Name="ID531" Collection="{ActivityBind ROOT,Path=_x005f_Hashtable41}" Key="Qty_x0020_In" ValueType="System.String">
+				<ns0:AddToHashtableActivity.Value>
+					<ActivityBind Name="ROOT" Path="_x005f_String67" />
+				</ns0:AddToHashtableActivity.Value>
+			</ns0:AddToHashtableActivity>
+			<ns0:UpdateItemActivity __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=_x005f_Int3271}" ItemProperties="{ActivityBind ROOT,Path=_x005f_Hashtable41}" ListId="{}{AE677E3C-042E-448B-82CA-C0C3B0F553E2}" x:Name="ID528" />
+		</IfElseBranchActivity>
+		<IfElseBranchActivity x:Name="ID548">
+			<IfElseBranchActivity.Condition>
+				<RuleConditionReference ConditionName="__Rule_ID548" />
+			</IfElseBranchActivity.Condition>
+			<ns0:FindActivity ListId="{}{0BB154A4-AAE3-4F65-BD81-DA9811EBAF0E}" x:Name="ID550" FieldName="Title" ReturnValue="{ActivityBind ROOT,Path=_x005f_Int3273}" ExternalFieldName="Title" __Context="{ActivityBind ROOT,Path=__context}" ExternalListId="{}{C78B5A57-251B-4567-B628-1D2D1227C270}" ListItem="{ActivityBind ROOT,Path=__item}" />
+			<ns0:ClearHashtableActivity Collection="{ActivityBind ROOT,Path=_x005f_Hashtable43}" x:Name="ID551" />
+			<ns0:LookupActivity ListId="{}{0BB154A4-AAE3-4F65-BD81-DA9811EBAF0E}" x:Name="ID553" FieldName="Qty_x0020_Compl" LookupFunction="LookupDouble" __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=__item}">
+				<ns0:LookupActivity.ReturnValue>
+					<ActivityBind Name="ROOT" Path="_x005f_Double14" />
+				</ns0:LookupActivity.ReturnValue>
+			</ns0:LookupActivity>
+			<ns0:AddToHashtableActivity x:Name="ID552" Collection="{ActivityBind ROOT,Path=_x005f_Hashtable43}" Key="Qty_x0020_In" ValueType="System.Double">
+				<ns0:AddToHashtableActivity.Value>
+					<ActivityBind Name="ROOT" Path="_x005f_Double14" />
+				</ns0:AddToHashtableActivity.Value>
+			</ns0:AddToHashtableActivity>
+			<ns0:UpdateItemActivity __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=_x005f_Int3273}" ItemProperties="{ActivityBind ROOT,Path=_x005f_Hashtable43}" ListId="{}{C78B5A57-251B-4567-B628-1D2D1227C270}" x:Name="ID549" />
+		</IfElseBranchActivity>
+		<IfElseBranchActivity x:Name="ID539">
+			<IfElseBranchActivity.Condition>
+				<RuleConditionReference ConditionName="__Rule_ID539" />
+			</IfElseBranchActivity.Condition>
+			<ns0:FindActivity ListId="{}{0BB154A4-AAE3-4F65-BD81-DA9811EBAF0E}" x:Name="ID541" FieldName="Title" ReturnValue="{ActivityBind ROOT,Path=_x005f_Int3272}" ExternalFieldName="Title" __Context="{ActivityBind ROOT,Path=__context}" ExternalListId="{}{8457341A-039F-44AF-814C-EDD32AC863FD}" ListItem="{ActivityBind ROOT,Path=__item}" />
+			<ns0:ClearHashtableActivity Collection="{ActivityBind ROOT,Path=_x005f_Hashtable42}" x:Name="ID542" />
+			<ns0:LookupActivity ListId="{}{0BB154A4-AAE3-4F65-BD81-DA9811EBAF0E}" x:Name="ID544" FieldName="Qty_x0020_Compl" LookupFunction="LookupDouble" __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=__item}">
+				<ns0:LookupActivity.ReturnValue>
+					<ActivityBind Name="ROOT" Path="_x005f_Double13" />
+				</ns0:LookupActivity.ReturnValue>
+			</ns0:LookupActivity>
+			<ns0:AddToHashtableActivity x:Name="ID543" Collection="{ActivityBind ROOT,Path=_x005f_Hashtable42}" Key="Qty_x0020_In" ValueType="System.Double">
+				<ns0:AddToHashtableActivity.Value>
+					<ActivityBind Name="ROOT" Path="_x005f_Double13" />
+				</ns0:AddToHashtableActivity.Value>
+			</ns0:AddToHashtableActivity>
+			<ns0:UpdateItemActivity __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=_x005f_Int3272}" ItemProperties="{ActivityBind ROOT,Path=_x005f_Hashtable42}" ListId="{}{8457341A-039F-44AF-814C-EDD32AC863FD}" x:Name="ID540" />
+		</IfElseBranchActivity>
+		<IfElseBranchActivity x:Name="ID623">
+			<IfElseBranchActivity.Condition>
+				<RuleConditionReference ConditionName="__Rule_ID623" />
+			</IfElseBranchActivity.Condition>
+			<ns0:FindActivity ListId="{}{0BB154A4-AAE3-4F65-BD81-DA9811EBAF0E}" x:Name="ID625" FieldName="Title" ReturnValue="{ActivityBind ROOT,Path=_x005f_Int3279}" ExternalFieldName="Title" __Context="{ActivityBind ROOT,Path=__context}" ExternalListId="{}{4A89D44B-E9F9-4452-ADAF-75104E142CE7}" ListItem="{ActivityBind ROOT,Path=__item}" />
+			<ns0:ClearHashtableActivity Collection="{ActivityBind ROOT,Path=_x005f_Hashtable48}" x:Name="ID626" />
+			<ns0:LookupActivity ListId="{}{0BB154A4-AAE3-4F65-BD81-DA9811EBAF0E}" x:Name="ID628" FieldName="Qty_x0020_Compl" LookupFunction="LookupDouble" __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=__item}">
+				<ns0:LookupActivity.ReturnValue>
+					<ActivityBind Name="ROOT" Path="_x005f_Double20" />
+				</ns0:LookupActivity.ReturnValue>
+			</ns0:LookupActivity>
+			<ns0:AddToHashtableActivity x:Name="ID627" Collection="{ActivityBind ROOT,Path=_x005f_Hashtable48}" Key="Qty_x0020_In" ValueType="System.Double">
+				<ns0:AddToHashtableActivity.Value>
+					<ActivityBind Name="ROOT" Path="_x005f_Double20" />
+				</ns0:AddToHashtableActivity.Value>
+			</ns0:AddToHashtableActivity>
+			<ns0:UpdateItemActivity __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=_x005f_Int3279}" ItemProperties="{ActivityBind ROOT,Path=_x005f_Hashtable48}" ListId="{}{4A89D44B-E9F9-4452-ADAF-75104E142CE7}" x:Name="ID624" />
+		</IfElseBranchActivity>
+		<IfElseBranchActivity x:Name="ID677">
+			<IfElseBranchActivity.Condition>
+				<RuleConditionReference ConditionName="__Rule_ID677" />
+			</IfElseBranchActivity.Condition>
+			<ns0:FindActivity ListId="{}{0BB154A4-AAE3-4F65-BD81-DA9811EBAF0E}" x:Name="ID679" FieldName="Title" ReturnValue="{ActivityBind ROOT,Path=_x005f_Int3280}" ExternalFieldName="Title" __Context="{ActivityBind ROOT,Path=__context}" ExternalListId="{}{8EF4706B-B275-4184-A2C0-4257D25247F6}" ListItem="{ActivityBind ROOT,Path=__item}" />
+			<ns0:ClearHashtableActivity Collection="{ActivityBind ROOT,Path=_x005f_Hashtable49}" x:Name="ID680" />
+			<ns0:LookupActivity ListId="{}{0BB154A4-AAE3-4F65-BD81-DA9811EBAF0E}" x:Name="ID682" FieldName="Qty_x0020_Compl" LookupFunction="LookupDouble" __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=__item}">
+				<ns0:LookupActivity.ReturnValue>
+					<ActivityBind Name="ROOT" Path="_x005f_Double21" />
+				</ns0:LookupActivity.ReturnValue>
+			</ns0:LookupActivity>
+			<ns0:AddToHashtableActivity x:Name="ID681" Collection="{ActivityBind ROOT,Path=_x005f_Hashtable49}" Key="Qty_x0020_In" ValueType="System.Double">
+				<ns0:AddToHashtableActivity.Value>
+					<ActivityBind Name="ROOT" Path="_x005f_Double21" />
+				</ns0:AddToHashtableActivity.Value>
+			</ns0:AddToHashtableActivity>
+			<ns0:UpdateItemActivity __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=_x005f_Int3280}" ItemProperties="{ActivityBind ROOT,Path=_x005f_Hashtable49}" ListId="{}{8EF4706B-B275-4184-A2C0-4257D25247F6}" x:Name="ID678" />
+		</IfElseBranchActivity>
+		<IfElseBranchActivity x:Name="ID684">
+			<IfElseBranchActivity.Condition>
+				<RuleConditionReference ConditionName="__Rule_ID684" />
+			</IfElseBranchActivity.Condition>
+			<ns0:FindActivity ListId="{}{0BB154A4-AAE3-4F65-BD81-DA9811EBAF0E}" x:Name="ID686" FieldName="Title" ReturnValue="{ActivityBind ROOT,Path=_x005f_Int3281}" ExternalFieldName="Title" __Context="{ActivityBind ROOT,Path=__context}" ExternalListId="{}{DAD27091-96C9-4A91-A9A8-076DEF5F05AE}" ListItem="{ActivityBind ROOT,Path=__item}" />
+			<ns0:ClearHashtableActivity Collection="{ActivityBind ROOT,Path=_x005f_Hashtable50}" x:Name="ID687" />
+			<ns0:LookupActivity ListId="{}{0BB154A4-AAE3-4F65-BD81-DA9811EBAF0E}" x:Name="ID689" FieldName="Qty_x0020_Compl" LookupFunction="LookupDouble" __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=__item}">
+				<ns0:LookupActivity.ReturnValue>
+					<ActivityBind Name="ROOT" Path="_x005f_Double22" />
+				</ns0:LookupActivity.ReturnValue>
+			</ns0:LookupActivity>
+			<ns0:AddToHashtableActivity x:Name="ID688" Collection="{ActivityBind ROOT,Path=_x005f_Hashtable50}" Key="Qty_x0020_In" ValueType="System.Double">
+				<ns0:AddToHashtableActivity.Value>
+					<ActivityBind Name="ROOT" Path="_x005f_Double22" />
+				</ns0:AddToHashtableActivity.Value>
+			</ns0:AddToHashtableActivity>
+			<ns0:UpdateItemActivity __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=_x005f_Int3281}" ItemProperties="{ActivityBind ROOT,Path=_x005f_Hashtable50}" ListId="{}{DAD27091-96C9-4A91-A9A8-076DEF5F05AE}" x:Name="ID685" />
+		</IfElseBranchActivity>
+		<IfElseBranchActivity x:Name="ID691">
+			<IfElseBranchActivity.Condition>
+				<RuleConditionReference ConditionName="__Rule_ID691" />
+			</IfElseBranchActivity.Condition>
+			<ns0:FindActivity ListId="{}{0BB154A4-AAE3-4F65-BD81-DA9811EBAF0E}" x:Name="ID693" FieldName="Title" ReturnValue="{ActivityBind ROOT,Path=_x005f_Int3282}" ExternalFieldName="Title" __Context="{ActivityBind ROOT,Path=__context}" ExternalListId="{}{A51E55D3-A69E-4776-B4DA-42AEC2BCBFF4}" ListItem="{ActivityBind ROOT,Path=__item}" />
+			<ns0:ClearHashtableActivity Collection="{ActivityBind ROOT,Path=_x005f_Hashtable51}" x:Name="ID694" />
+			<ns0:LookupActivity ListId="{}{0BB154A4-AAE3-4F65-BD81-DA9811EBAF0E}" x:Name="ID696" FieldName="Qty_x0020_Compl" LookupFunction="LookupDouble" __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=__item}">
+				<ns0:LookupActivity.ReturnValue>
+					<ActivityBind Name="ROOT" Path="_x005f_Double23" />
+				</ns0:LookupActivity.ReturnValue>
+			</ns0:LookupActivity>
+			<ns0:AddToHashtableActivity x:Name="ID695" Collection="{ActivityBind ROOT,Path=_x005f_Hashtable51}" Key="Qty_x0020_In" ValueType="System.Double">
+				<ns0:AddToHashtableActivity.Value>
+					<ActivityBind Name="ROOT" Path="_x005f_Double23" />
+				</ns0:AddToHashtableActivity.Value>
+			</ns0:AddToHashtableActivity>
+			<ns0:UpdateItemActivity __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=_x005f_Int3282}" ItemProperties="{ActivityBind ROOT,Path=_x005f_Hashtable51}" ListId="{}{A51E55D3-A69E-4776-B4DA-42AEC2BCBFF4}" x:Name="ID692" />
+		</IfElseBranchActivity>
+		<IfElseBranchActivity x:Name="ID705">
+			<IfElseBranchActivity.Condition>
+				<RuleConditionReference ConditionName="__Rule_ID705" />
+			</IfElseBranchActivity.Condition>
+			<ns0:FindActivity ListId="{}{0BB154A4-AAE3-4F65-BD81-DA9811EBAF0E}" x:Name="ID707" FieldName="Title" ReturnValue="{ActivityBind ROOT,Path=_x005f_Int3284}" ExternalFieldName="Title" __Context="{ActivityBind ROOT,Path=__context}" ExternalListId="{}{34FCDB6F-5B0D-472A-98B3-5C7F7F39ED00}" ListItem="{ActivityBind ROOT,Path=__item}" />
+			<ns0:ClearHashtableActivity Collection="{ActivityBind ROOT,Path=_x005f_Hashtable53}" x:Name="ID708" />
+			<ns0:LookupActivity ListId="{}{0BB154A4-AAE3-4F65-BD81-DA9811EBAF0E}" x:Name="ID710" FieldName="Qty_x0020_Compl" LookupFunction="LookupDouble" __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=__item}">
+				<ns0:LookupActivity.ReturnValue>
+					<ActivityBind Name="ROOT" Path="_x005f_Double25" />
+				</ns0:LookupActivity.ReturnValue>
+			</ns0:LookupActivity>
+			<ns0:AddToHashtableActivity x:Name="ID709" Collection="{ActivityBind ROOT,Path=_x005f_Hashtable53}" Key="Qty_x0020_In" ValueType="System.Double">
+				<ns0:AddToHashtableActivity.Value>
+					<ActivityBind Name="ROOT" Path="_x005f_Double25" />
+				</ns0:AddToHashtableActivity.Value>
+			</ns0:AddToHashtableActivity>
+			<ns0:UpdateItemActivity __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=_x005f_Int3284}" ItemProperties="{ActivityBind ROOT,Path=_x005f_Hashtable53}" ListId="{}{34FCDB6F-5B0D-472A-98B3-5C7F7F39ED00}" x:Name="ID706" />
+		</IfElseBranchActivity>
+		<IfElseBranchActivity x:Name="ID740">
+			<IfElseBranchActivity.Condition>
+				<RuleConditionReference ConditionName="__Rule_ID740" />
+			</IfElseBranchActivity.Condition>
+			<ns0:FindActivity ListId="{}{0BB154A4-AAE3-4F65-BD81-DA9811EBAF0E}" x:Name="ID743" FieldName="Title" ReturnValue="{ActivityBind ROOT,Path=_x005f_Int3286}" ExternalFieldName="Title" __Context="{ActivityBind ROOT,Path=__context}" ExternalListId="{}{1C63582D-3ABE-43DB-AC4D-FA31071A508D}" ListItem="{ActivityBind ROOT,Path=__item}" />
+			<ns0:ClearHashtableActivity Collection="{ActivityBind ROOT,Path=_x005f_Hashtable55}" x:Name="ID744" />
+			<ns0:LookupActivity ListId="{}{0BB154A4-AAE3-4F65-BD81-DA9811EBAF0E}" x:Name="ID746" FieldName="Qty_x0020_Compl" LookupFunction="LookupDouble" __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=__item}">
+				<ns0:LookupActivity.ReturnValue>
+					<ActivityBind Name="ROOT" Path="_x005f_Double27" />
+				</ns0:LookupActivity.ReturnValue>
+			</ns0:LookupActivity>
+			<ns0:AddToHashtableActivity x:Name="ID745" Collection="{ActivityBind ROOT,Path=_x005f_Hashtable55}" Key="Qty_x0020_In" ValueType="System.Double">
+				<ns0:AddToHashtableActivity.Value>
+					<ActivityBind Name="ROOT" Path="_x005f_Double27" />
+				</ns0:AddToHashtableActivity.Value>
+			</ns0:AddToHashtableActivity>
+			<ns0:UpdateItemActivity __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=_x005f_Int3286}" ItemProperties="{ActivityBind ROOT,Path=_x005f_Hashtable55}" ListId="{}{1C63582D-3ABE-43DB-AC4D-FA31071A508D}" x:Name="ID742" />
+		</IfElseBranchActivity>
+		<IfElseBranchActivity x:Name="ID741">
+			<IfElseBranchActivity.Condition>
+				<RuleConditionReference ConditionName="__Rule_ID741" />
+			</IfElseBranchActivity.Condition>
+			<ns0:FindActivity ListId="{}{0BB154A4-AAE3-4F65-BD81-DA9811EBAF0E}" x:Name="ID749" FieldName="Title" ReturnValue="{ActivityBind ROOT,Path=_x005f_Int3287}" ExternalFieldName="Title" __Context="{ActivityBind ROOT,Path=__context}" ExternalListId="{}{8B1AD0C8-2CE4-4567-9E2B-13C173509D1E}" ListItem="{ActivityBind ROOT,Path=__item}" />
+			<ns0:ClearHashtableActivity Collection="{ActivityBind ROOT,Path=_x005f_Hashtable56}" x:Name="ID750" />
+			<ns0:LookupActivity ListId="{}{0BB154A4-AAE3-4F65-BD81-DA9811EBAF0E}" x:Name="ID752" FieldName="Qty_x0020_Compl" LookupFunction="LookupDouble" __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=__item}">
+				<ns0:LookupActivity.ReturnValue>
+					<ActivityBind Name="ROOT" Path="_x005f_Double28" />
+				</ns0:LookupActivity.ReturnValue>
+			</ns0:LookupActivity>
+			<ns0:AddToHashtableActivity x:Name="ID751" Collection="{ActivityBind ROOT,Path=_x005f_Hashtable56}" Key="Qty_x0020_In" ValueType="System.Double">
+				<ns0:AddToHashtableActivity.Value>
+					<ActivityBind Name="ROOT" Path="_x005f_Double28" />
+				</ns0:AddToHashtableActivity.Value>
+			</ns0:AddToHashtableActivity>
+			<ns0:UpdateItemActivity __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=_x005f_Int3287}" ItemProperties="{ActivityBind ROOT,Path=_x005f_Hashtable56}" ListId="{}{8B1AD0C8-2CE4-4567-9E2B-13C173509D1E}" x:Name="ID748" />
+		</IfElseBranchActivity>
+		<IfElseBranchActivity x:Name="ID698">
+			<IfElseBranchActivity.Condition>
+				<RuleConditionReference ConditionName="__Rule_ID698" />
+			</IfElseBranchActivity.Condition>
+			<ns0:FindActivity ListId="{}{0BB154A4-AAE3-4F65-BD81-DA9811EBAF0E}" x:Name="ID700" FieldName="Title" ReturnValue="{ActivityBind ROOT,Path=_x005f_Int3283}" ExternalFieldName="Title" __Context="{ActivityBind ROOT,Path=__context}" ExternalListId="{}{7013D8BD-6568-45D9-8A8C-76832BC212BB}" ListItem="{ActivityBind ROOT,Path=__item}" />
+			<ns0:ClearHashtableActivity Collection="{ActivityBind ROOT,Path=_x005f_Hashtable52}" x:Name="ID701" />
+			<ns0:LookupActivity ListId="{}{0BB154A4-AAE3-4F65-BD81-DA9811EBAF0E}" x:Name="ID703" FieldName="Qty_x0020_Compl" LookupFunction="LookupDouble" __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=__item}">
+				<ns0:LookupActivity.ReturnValue>
+					<ActivityBind Name="ROOT" Path="_x005f_Double24" />
+				</ns0:LookupActivity.ReturnValue>
+			</ns0:LookupActivity>
+			<ns0:AddToHashtableActivity x:Name="ID702" Collection="{ActivityBind ROOT,Path=_x005f_Hashtable52}" Key="Qty_x0020_In" ValueType="System.Double">
+				<ns0:AddToHashtableActivity.Value>
+					<ActivityBind Name="ROOT" Path="_x005f_Double24" />
+				</ns0:AddToHashtableActivity.Value>
+			</ns0:AddToHashtableActivity>
+			<ns0:UpdateItemActivity __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=_x005f_Int3283}" ItemProperties="{ActivityBind ROOT,Path=_x005f_Hashtable52}" ListId="{}{7013D8BD-6568-45D9-8A8C-76832BC212BB}" x:Name="ID699" />
+		</IfElseBranchActivity>
+		<IfElseBranchActivity x:Name="ID733">
+			<IfElseBranchActivity.Condition>
+				<RuleConditionReference ConditionName="__Rule_ID733" />
+			</IfElseBranchActivity.Condition>
+			<ns0:FindActivity ListId="{}{0BB154A4-AAE3-4F65-BD81-DA9811EBAF0E}" x:Name="ID735" FieldName="Title" ReturnValue="{ActivityBind ROOT,Path=_x005f_Int3285}" ExternalFieldName="Title" __Context="{ActivityBind ROOT,Path=__context}" ExternalListId="{}{62AC8EDC-1160-4FE8-8365-6347D851510B}" ListItem="{ActivityBind ROOT,Path=__item}" />
+			<ns0:ClearHashtableActivity Collection="{ActivityBind ROOT,Path=_x005f_Hashtable54}" x:Name="ID736" />
+			<ns0:LookupActivity ListId="{}{0BB154A4-AAE3-4F65-BD81-DA9811EBAF0E}" x:Name="ID738" FieldName="Qty_x0020_Compl" LookupFunction="LookupDouble" __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=__item}">
+				<ns0:LookupActivity.ReturnValue>
+					<ActivityBind Name="ROOT" Path="_x005f_Double26" />
+				</ns0:LookupActivity.ReturnValue>
+			</ns0:LookupActivity>
+			<ns0:AddToHashtableActivity x:Name="ID737" Collection="{ActivityBind ROOT,Path=_x005f_Hashtable54}" Key="Qty_x0020_In" ValueType="System.Double">
+				<ns0:AddToHashtableActivity.Value>
+					<ActivityBind Name="ROOT" Path="_x005f_Double26" />
+				</ns0:AddToHashtableActivity.Value>
+			</ns0:AddToHashtableActivity>
+			<ns0:UpdateItemActivity __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=_x005f_Int3285}" ItemProperties="{ActivityBind ROOT,Path=_x005f_Hashtable54}" ListId="{}{62AC8EDC-1160-4FE8-8365-6347D851510B}" x:Name="ID734" />
+		</IfElseBranchActivity>
+		<IfElseBranchActivity x:Name="ID555">
+			<IfElseBranchActivity.Condition>
+				<RuleConditionReference ConditionName="__Rule_ID555" />
+			</IfElseBranchActivity.Condition>
+			<ns0:FindActivity ListId="{}{0BB154A4-AAE3-4F65-BD81-DA9811EBAF0E}" x:Name="ID557" FieldName="Title" ReturnValue="{ActivityBind ROOT,Path=_x005f_Int3274}" ExternalFieldName="Title" __Context="{ActivityBind ROOT,Path=__context}" ExternalListId="{}{49B600C3-3498-4ADF-9E54-0524202F796E}" ListItem="{ActivityBind ROOT,Path=__item}" />
+			<ns0:ClearHashtableActivity Collection="{ActivityBind ROOT,Path=_x005f_Hashtable44}" x:Name="ID558" />
+			<ns0:LookupActivity ListId="{}{0BB154A4-AAE3-4F65-BD81-DA9811EBAF0E}" x:Name="ID560" FieldName="Qty_x0020_Compl" LookupFunction="LookupDouble" __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=__item}">
+				<ns0:LookupActivity.ReturnValue>
+					<ActivityBind Name="ROOT" Path="_x005f_Double15" />
+				</ns0:LookupActivity.ReturnValue>
+			</ns0:LookupActivity>
+			<ns0:AddToHashtableActivity x:Name="ID559" Collection="{ActivityBind ROOT,Path=_x005f_Hashtable44}" Key="Qty_x0020_In" ValueType="System.Double">
+				<ns0:AddToHashtableActivity.Value>
+					<ActivityBind Name="ROOT" Path="_x005f_Double15" />
+				</ns0:AddToHashtableActivity.Value>
+			</ns0:AddToHashtableActivity>
+			<ns0:UpdateItemActivity __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=_x005f_Int3274}" ItemProperties="{ActivityBind ROOT,Path=_x005f_Hashtable44}" ListId="{}{49B600C3-3498-4ADF-9E54-0524202F796E}" x:Name="ID556" />
+		</IfElseBranchActivity>
+		<IfElseBranchActivity x:Name="ID616">
+			<IfElseBranchActivity.Condition>
+				<RuleConditionReference ConditionName="__Rule_ID616" />
+			</IfElseBranchActivity.Condition>
+			<ns0:FindActivity ListId="{}{0BB154A4-AAE3-4F65-BD81-DA9811EBAF0E}" x:Name="ID618" FieldName="Title" ReturnValue="{ActivityBind ROOT,Path=_x005f_Int3278}" ExternalFieldName="Title" __Context="{ActivityBind ROOT,Path=__context}" ExternalListId="{}{D689573B-ADAD-4F1A-A10B-694CBDAF25A1}" ListItem="{ActivityBind ROOT,Path=__item}" />
+			<ns0:ClearHashtableActivity Collection="{ActivityBind ROOT,Path=_x005f_Hashtable47}" x:Name="ID619" />
+			<ns0:LookupActivity ListId="{}{0BB154A4-AAE3-4F65-BD81-DA9811EBAF0E}" x:Name="ID621" FieldName="Qty_x0020_Compl" LookupFunction="LookupDouble" __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=__item}">
+				<ns0:LookupActivity.ReturnValue>
+					<ActivityBind Name="ROOT" Path="_x005f_Double19" />
+				</ns0:LookupActivity.ReturnValue>
+			</ns0:LookupActivity>
+			<ns0:AddToHashtableActivity x:Name="ID620" Collection="{ActivityBind ROOT,Path=_x005f_Hashtable47}" Key="Qty_x0020_In" ValueType="System.Double">
+				<ns0:AddToHashtableActivity.Value>
+					<ActivityBind Name="ROOT" Path="_x005f_Double19" />
+				</ns0:AddToHashtableActivity.Value>
+			</ns0:AddToHashtableActivity>
+			<ns0:UpdateItemActivity __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=_x005f_Int3278}" ItemProperties="{ActivityBind ROOT,Path=_x005f_Hashtable47}" ListId="{}{D689573B-ADAD-4F1A-A10B-694CBDAF25A1}" x:Name="ID617" />
+		</IfElseBranchActivity>
+		<IfElseBranchActivity x:Name="ID370">
+			<IfElseBranchActivity.Condition>
+				<RuleConditionReference ConditionName="__Rule_ID370" />
+			</IfElseBranchActivity.Condition>
+			<ns0:FindActivity ListId="{}{0BB154A4-AAE3-4F65-BD81-DA9811EBAF0E}" x:Name="ID372" FieldName="Title" ReturnValue="{ActivityBind ROOT,Path=_x005f_Int3264}" ExternalFieldName="Title" __Context="{ActivityBind ROOT,Path=__context}" ExternalListId="{}{84E7E95D-0121-40E5-B4A6-B3E991DAC7F1}" ListItem="{ActivityBind ROOT,Path=__item}" />
+			<ns0:ClearHashtableActivity Collection="{ActivityBind ROOT,Path=_x005f_Hashtable33}" x:Name="ID373" />
+			<ns0:LookupActivity ListId="{}{0BB154A4-AAE3-4F65-BD81-DA9811EBAF0E}" x:Name="ID375" FieldName="Qty_x0020_Compl" LookupFunction="LookupDouble" __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=__item}">
+				<ns0:LookupActivity.ReturnValue>
+					<ActivityBind Name="ROOT" Path="_x005f_Double6" />
+				</ns0:LookupActivity.ReturnValue>
+			</ns0:LookupActivity>
+			<ns0:AddToHashtableActivity x:Name="ID374" Collection="{ActivityBind ROOT,Path=_x005f_Hashtable33}" Key="Qty_x0020_In" ValueType="System.Double">
+				<ns0:AddToHashtableActivity.Value>
+					<ActivityBind Name="ROOT" Path="_x005f_Double6" />
+				</ns0:AddToHashtableActivity.Value>
+			</ns0:AddToHashtableActivity>
+			<ns0:UpdateItemActivity __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=_x005f_Int3264}" ItemProperties="{ActivityBind ROOT,Path=_x005f_Hashtable33}" ListId="{}{84E7E95D-0121-40E5-B4A6-B3E991DAC7F1}" x:Name="ID371" />
+		</IfElseBranchActivity>
+	</IfElseActivity>
+	<IfElseActivity x:Name="ID415" Description="Step 17 - SMT placement chart">
+		<IfElseBranchActivity x:Name="ID414">
+			<IfElseBranchActivity.Condition>
+				<RuleConditionReference ConditionName="__Rule_ID414_1" />
+			</IfElseBranchActivity.Condition>
+			<ns0:LookupActivity ListId="{}{0BB154A4-AAE3-4F65-BD81-DA9811EBAF0E}" x:Name="ID420" FieldName="Qty_x0020_Compl" LookupFunction="LookupDouble" __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=__item}">
+				<ns0:LookupActivity.ReturnValue>
+					<ActivityBind Name="ROOT" Path="_x005f_Double7" />
+				</ns0:LookupActivity.ReturnValue>
+			</ns0:LookupActivity>
+			<ns0:LookupActivity ListId="{}{0BB154A4-AAE3-4F65-BD81-DA9811EBAF0E}" x:Name="ID421" FieldName="Qty_x0020_Compl_x002d_Old" LookupFunction="LookupDouble" __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=__item}">
+				<ns0:LookupActivity.ReturnValue>
+					<ActivityBind Name="ROOT" Path="_x005f_Double8" />
+				</ns0:LookupActivity.ReturnValue>
+			</ns0:LookupActivity>
+			<ns0:MathActivity x:Name="ID419" ValueType="System.Double" Operator="sub">
+				<ns0:MathActivity.Variable>
+					<ActivityBind Name="ROOT" Path="_x0031_" />
+				</ns0:MathActivity.Variable>
+				<ns0:MathActivity.Operand1>
+					<ActivityBind Name="ROOT" Path="_x005f_Double7" />
+				</ns0:MathActivity.Operand1>
+				<ns0:MathActivity.Operand2>
+					<ActivityBind Name="ROOT" Path="_x005f_Double8" />
+				</ns0:MathActivity.Operand2>
+			</ns0:MathActivity>
+			<ns0:FindActivity ListId="{}{0BB154A4-AAE3-4F65-BD81-DA9811EBAF0E}" x:Name="ID1030" FieldName="Title" ReturnValue="{ActivityBind ROOT,Path=_x005f_Int3293}" ExternalFieldName="Title" __Context="{ActivityBind ROOT,Path=__context}" ExternalListId="{}{340B4FD0-3E54-4FED-8045-29AFFA3B876C}" ListItem="{ActivityBind ROOT,Path=__item}" />
+			<ns0:LookupActivity ListId="{}{340B4FD0-3E54-4FED-8045-29AFFA3B876C}" x:Name="ID1029" FieldName="SMT_x002d_B" LookupFunction="LookupDouble" __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=_x005f_Int3293}">
+				<ns0:LookupActivity.ReturnValue>
+					<ActivityBind Name="ROOT" Path="_x005f_Double9" />
+				</ns0:LookupActivity.ReturnValue>
+			</ns0:LookupActivity>
+			<ns0:MathActivity x:Name="ID422" ValueType="System.Double" Operator="times">
+				<ns0:MathActivity.Variable>
+					<ActivityBind Name="ROOT" Path="_x0032_" />
+				</ns0:MathActivity.Variable>
+				<ns0:MathActivity.Operand1>
+					<ActivityBind Name="ROOT" Path="_x0031_" />
+				</ns0:MathActivity.Operand1>
+				<ns0:MathActivity.Operand2>
+					<ActivityBind Name="ROOT" Path="_x005f_Double9" />
+				</ns0:MathActivity.Operand2>
+			</ns0:MathActivity>
+			<ns0:ClearHashtableActivity Collection="{ActivityBind ROOT,Path=_x005f_Hashtable36}" x:Name="ID767" />
+			<ns0:LookupActivity ListId="{}{0BB154A4-AAE3-4F65-BD81-DA9811EBAF0E}" x:Name="ID769" FieldName="Modified" LookupFunction="LookupFriendlyString" __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=__item}">
+				<ns0:LookupActivity.ReturnValue>
+					<ActivityBind Name="ROOT" Path="_x005f_String61" />
+				</ns0:LookupActivity.ReturnValue>
+			</ns0:LookupActivity>
+			<ns0:AddToHashtableActivity x:Name="ID768" Collection="{ActivityBind ROOT,Path=_x005f_Hashtable36}" Key="Title" ValueType="System.String">
+				<ns0:AddToHashtableActivity.Value>
+					<ActivityBind Name="ROOT" Path="_x005f_String61" />
+				</ns0:AddToHashtableActivity.Value>
+			</ns0:AddToHashtableActivity>
+			<ns0:AddToHashtableActivity x:Name="ID770" Collection="{ActivityBind ROOT,Path=_x005f_Hashtable36}" Key="Placement" ValueType="System.Double">
+				<ns0:AddToHashtableActivity.Value>
+					<ActivityBind Name="ROOT" Path="_x0032_" />
+				</ns0:AddToHashtableActivity.Value>
+			</ns0:AddToHashtableActivity>
+			<ns0:LookupActivity ListId="{}{0BB154A4-AAE3-4F65-BD81-DA9811EBAF0E}" x:Name="ID772" FieldName="Title" LookupFunction="LookupString" __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=__item}">
+				<ns0:LookupActivity.ReturnValue>
+					<ActivityBind Name="ROOT" Path="_x005f_String62" />
+				</ns0:LookupActivity.ReturnValue>
+			</ns0:LookupActivity>
+			<ns0:AddToHashtableActivity x:Name="ID771" Collection="{ActivityBind ROOT,Path=_x005f_Hashtable36}" Key="Job_x0020_No_x002e_" ValueType="System.String">
+				<ns0:AddToHashtableActivity.Value>
+					<ActivityBind Name="ROOT" Path="_x005f_String62" />
+				</ns0:AddToHashtableActivity.Value>
+			</ns0:AddToHashtableActivity>
+			<ns0:AddToHashtableActivity x:Name="ID773" Collection="{ActivityBind ROOT,Path=_x005f_Hashtable36}" Key="Qty_x0020_Ran" ValueType="System.Double">
+				<ns0:AddToHashtableActivity.Value>
+					<ActivityBind Name="ROOT" Path="_x0031_" />
+				</ns0:AddToHashtableActivity.Value>
+			</ns0:AddToHashtableActivity>
+			<ns0:AddToHashtableActivity x:Name="ID774" Collection="{ActivityBind ROOT,Path=_x005f_Hashtable36}" Key="From_x0020_Proc" ValueType="System.String">
+				<ns0:AddToHashtableActivity.Value>
+					<ns1:String xmlns:ns1="clr-namespace:System;Assembly=mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">SMT Oper SS</ns1:String>
+				</ns0:AddToHashtableActivity.Value>
+			</ns0:AddToHashtableActivity>
+			<ns0:LookupActivity ListId="{}{0BB154A4-AAE3-4F65-BD81-DA9811EBAF0E}" x:Name="ID776" FieldName="Modified" LookupFunction="LookupDateTime" __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=__item}">
+				<ns0:LookupActivity.ReturnValue>
+					<ActivityBind Name="ROOT" Path="_x005f_DateTime1" />
+				</ns0:LookupActivity.ReturnValue>
+			</ns0:LookupActivity>
+			<ns0:AddToHashtableActivity x:Name="ID775" Collection="{ActivityBind ROOT,Path=_x005f_Hashtable36}" Key="Timestamp_x002e_" ValueType="System.DateTime">
+				<ns0:AddToHashtableActivity.Value>
+					<ActivityBind Name="ROOT" Path="_x005f_DateTime1" />
+				</ns0:AddToHashtableActivity.Value>
+			</ns0:AddToHashtableActivity>
+			<ns0:LookupActivity ListId="{}{0BB154A4-AAE3-4F65-BD81-DA9811EBAF0E}" x:Name="ID778" FieldName="Line" LookupFunction="LookupString" __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=__item}">
+				<ns0:LookupActivity.ReturnValue>
+					<ActivityBind Name="ROOT" Path="_x005f_String71" />
+				</ns0:LookupActivity.ReturnValue>
+			</ns0:LookupActivity>
+			<ns0:AddToHashtableActivity x:Name="ID777" Collection="{ActivityBind ROOT,Path=_x005f_Hashtable36}" Key="Line" ValueType="System.String">
+				<ns0:AddToHashtableActivity.Value>
+					<ActivityBind Name="ROOT" Path="_x005f_String71" />
+				</ns0:AddToHashtableActivity.Value>
+			</ns0:AddToHashtableActivity>
+			<ns0:LookupActivity ListId="{}{0BB154A4-AAE3-4F65-BD81-DA9811EBAF0E}" x:Name="ID780" FieldName="Customer" LookupFunction="LookupString" __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=__item}">
+				<ns0:LookupActivity.ReturnValue>
+					<ActivityBind Name="ROOT" Path="_x005f_String80" />
+				</ns0:LookupActivity.ReturnValue>
+			</ns0:LookupActivity>
+			<ns0:AddToHashtableActivity x:Name="ID779" Collection="{ActivityBind ROOT,Path=_x005f_Hashtable36}" Key="Customer" ValueType="System.String">
+				<ns0:AddToHashtableActivity.Value>
+					<ActivityBind Name="ROOT" Path="_x005f_String80" />
+				</ns0:AddToHashtableActivity.Value>
+			</ns0:AddToHashtableActivity>
+			<ns0:CreateItemActivity ListId="{}{9D6DC504-A2B8-4083-A4DB-962F406F356F}" x:Name="ID424" Overwrite="False" __Context="{ActivityBind ROOT,Path=__context}" ItemProperties="{ActivityBind ROOT,Path=_x005f_Hashtable36}" NewItemId="{ActivityBind ROOT,Path=create}" />
+			<ns0:LookupActivity ListId="{}{0BB154A4-AAE3-4F65-BD81-DA9811EBAF0E}" x:Name="ID431" FieldName="Qty_x0020_Compl" LookupFunction="LookupDouble" __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=__item}">
+				<ns0:LookupActivity.ReturnValue>
+					<ActivityBind Name="ROOT" Path="_x005f_Double10" />
+				</ns0:LookupActivity.ReturnValue>
+			</ns0:LookupActivity>
+			<ns0:SetFieldActivity x:Name="ID430" FieldName="Qty_x0020_Compl_x002d_Old" __Context="{ActivityBind ROOT,Path=__context}" __ListId="{ActivityBind ROOT,Path=__list}" __ListItem="{ActivityBind ROOT,Path=__item}">
+				<ns0:SetFieldActivity.Value>
+					<ActivityBind Name="ROOT" Path="_x005f_Double10" />
+				</ns0:SetFieldActivity.Value>
+			</ns0:SetFieldActivity>
+		</IfElseBranchActivity>
+		<IfElseBranchActivity x:Name="ID417">
+			<IfElseBranchActivity.Condition>
+				<RuleConditionReference ConditionName="__Rule_ID417" />
+			</IfElseBranchActivity.Condition>
+		</IfElseBranchActivity>
+	</IfElseActivity>
+	<IfElseActivity x:Name="ID1059" Description="Step 18 - combine">
+		<IfElseBranchActivity x:Name="ID1058">
+			<IfElseBranchActivity.Condition>
+				<RuleConditionReference ConditionName="__Rule_ID1058" />
+			</IfElseBranchActivity.Condition>
+			<ns0:ClearHashtableActivity Collection="{ActivityBind ROOT,Path=_x005f_Hashtable58}" x:Name="ID1062" />
+			<ns0:LookupActivity ListId="{}{0BB154A4-AAE3-4F65-BD81-DA9811EBAF0E}" x:Name="ID1064" FieldName="Job_x0020_No_x002e__x002d_" LookupFunction="LookupString" __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=__item}">
+				<ns0:LookupActivity.ReturnValue>
+					<ActivityBind Name="ROOT" Path="_x005f_String100" />
+				</ns0:LookupActivity.ReturnValue>
+			</ns0:LookupActivity>
+			<ns0:AddToHashtableActivity x:Name="ID1063" Collection="{ActivityBind ROOT,Path=_x005f_Hashtable58}" Key="Title" ValueType="System.String">
+				<ns0:AddToHashtableActivity.Value>
+					<ActivityBind Name="ROOT" Path="_x005f_String100" />
+				</ns0:AddToHashtableActivity.Value>
+			</ns0:AddToHashtableActivity>
+			<ns0:LookupActivity ListId="{}{0BB154A4-AAE3-4F65-BD81-DA9811EBAF0E}" x:Name="ID1066" FieldName="Title" LookupFunction="LookupString" __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=__item}">
+				<ns0:LookupActivity.ReturnValue>
+					<ActivityBind Name="ROOT" Path="_x005f_String101" />
+				</ns0:LookupActivity.ReturnValue>
+			</ns0:LookupActivity>
+			<ns0:AddToHashtableActivity x:Name="ID1065" Collection="{ActivityBind ROOT,Path=_x005f_Hashtable58}" Key="Job_x0023_" ValueType="System.String">
+				<ns0:AddToHashtableActivity.Value>
+					<ActivityBind Name="ROOT" Path="_x005f_String101" />
+				</ns0:AddToHashtableActivity.Value>
+			</ns0:AddToHashtableActivity>
+			<ns0:CreateItemActivity ListId="{}{64DE6542-21FC-42A0-8D94-4A49BDFE6E8F}" x:Name="ID1061" Overwrite="False" __Context="{ActivityBind ROOT,Path=__context}" ItemProperties="{ActivityBind ROOT,Path=_x005f_Hashtable58}" NewItemId="{ActivityBind ROOT,Path=create4}" />
+		</IfElseBranchActivity>
+		<IfElseBranchActivity x:Name="ID1068">
+			<IfElseBranchActivity.Condition>
+				<RuleConditionReference ConditionName="__Rule_ID1068_1" />
+			</IfElseBranchActivity.Condition>
+			<ns0:FindActivity ListId="{}{0BB154A4-AAE3-4F65-BD81-DA9811EBAF0E}" x:Name="ID1137" FieldName="Job_x0020_No_x002e__x002d_" ReturnValue="{ActivityBind ROOT,Path=_x005f_Int3295}" ExternalFieldName="Title" __Context="{ActivityBind ROOT,Path=__context}" ExternalListId="{}{64DE6542-21FC-42A0-8D94-4A49BDFE6E8F}" ListItem="{ActivityBind ROOT,Path=__item}" />
+			<ns0:ClearHashtableActivity Collection="{ActivityBind ROOT,Path=_x005f_Hashtable59}" x:Name="ID1138" />
+			<ns0:LookupActivity ListId="{}{0BB154A4-AAE3-4F65-BD81-DA9811EBAF0E}" x:Name="ID1140" FieldName="Qty_x0020_Left_x002e_" LookupFunction="LookupDouble" __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=__item}">
+				<ns0:LookupActivity.ReturnValue>
+					<ActivityBind Name="ROOT" Path="_x005f_Double37" />
+				</ns0:LookupActivity.ReturnValue>
+			</ns0:LookupActivity>
+			<ns0:AddToHashtableActivity x:Name="ID1139" Collection="{ActivityBind ROOT,Path=_x005f_Hashtable59}" Key="Qty_x0020_Left" ValueType="System.Double">
+				<ns0:AddToHashtableActivity.Value>
+					<ActivityBind Name="ROOT" Path="_x005f_Double37" />
+				</ns0:AddToHashtableActivity.Value>
+			</ns0:AddToHashtableActivity>
+			<ns0:LookupActivity ListId="{}{0BB154A4-AAE3-4F65-BD81-DA9811EBAF0E}" x:Name="ID1142" FieldName="Transaction" LookupFunction="LookupString" __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=__item}">
+				<ns0:LookupActivity.ReturnValue>
+					<ActivityBind Name="ROOT" Path="_x005f_String76" />
+				</ns0:LookupActivity.ReturnValue>
+			</ns0:LookupActivity>
+			<ns0:AddToHashtableActivity x:Name="ID1141" Collection="{ActivityBind ROOT,Path=_x005f_Hashtable59}" Key="Transaction" ValueType="System.String">
+				<ns0:AddToHashtableActivity.Value>
+					<ActivityBind Name="ROOT" Path="_x005f_String76" />
+				</ns0:AddToHashtableActivity.Value>
+			</ns0:AddToHashtableActivity>
+			<ns0:UpdateItemActivity __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=_x005f_Int3295}" ItemProperties="{ActivityBind ROOT,Path=_x005f_Hashtable59}" ListId="{}{64DE6542-21FC-42A0-8D94-4A49BDFE6E8F}" x:Name="ID1069" />
+		</IfElseBranchActivity>
+	</IfElseActivity>
+	<IfElseActivity x:Name="ID643" Description="Step 19 -ve Qty left">
+		<IfElseBranchActivity x:Name="ID642">
+			<IfElseBranchActivity.Condition>
+				<RuleConditionReference ConditionName="__Rule_ID642" />
+			</IfElseBranchActivity.Condition>
+			<ns0:LookupActivity ListId="{}{0BB154A4-AAE3-4F65-BD81-DA9811EBAF0E}" x:Name="ID647" FieldName="Editor" LookupFunction="LookupFriendlyString" __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=__item}">
+				<ns0:LookupActivity.ReturnValue>
+					<ActivityBind Name="ROOT" Path="_x005f_String72" />
+				</ns0:LookupActivity.ReturnValue>
+			</ns0:LookupActivity>
+			<ns0:BuildStringActivity x:Name="ID646" Variable="{ActivityBind ROOT,Path=Mod}" StringValue="Dorigo\\[%_x005f_String72%]" />
+			<ns0:LookupActivity ListId="{}{0BB154A4-AAE3-4F65-BD81-DA9811EBAF0E}" x:Name="ID667" FieldName="Title" LookupFunction="LookupFriendlyString" __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=__item}">
+				<ns0:LookupActivity.ReturnValue>
+					<ActivityBind Name="ROOT" Path="_x005f_String73" />
+				</ns0:LookupActivity.ReturnValue>
+			</ns0:LookupActivity>
+			<ns0:LookupActivity ListId="{}{0BB154A4-AAE3-4F65-BD81-DA9811EBAF0E}" x:Name="ID668" FieldName="Batch" LookupFunction="LookupFriendlyString" __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=__item}">
+				<ns0:LookupActivity.ReturnValue>
+					<ActivityBind Name="ROOT" Path="_x005f_String74" />
+				</ns0:LookupActivity.ReturnValue>
+			</ns0:LookupActivity>
+			<ns0:BuildStringActivity x:Name="ID650" Variable="{ActivityBind ROOT,Path=Subject}" StringValue="Error: Job No. [%_x005f_String73%] with Qty Left of [%_x005f_String74%] at SMT Secondary" />
+			<ns0:LookupActivity ListId="{}{0BB154A4-AAE3-4F65-BD81-DA9811EBAF0E}" x:Name="ID1094" FieldName="Qty" LookupFunction="LookupFriendlyString" __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=__item}">
+				<ns0:LookupActivity.ReturnValue>
+					<ActivityBind Name="ROOT" Path="_x005f_String8" />
+				</ns0:LookupActivity.ReturnValue>
+			</ns0:LookupActivity>
+			<ns0:LookupActivity ListId="{}{0BB154A4-AAE3-4F65-BD81-DA9811EBAF0E}" x:Name="ID1095" FieldName="Qty_x0020_Compl" LookupFunction="LookupFriendlyString" __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=__item}">
+				<ns0:LookupActivity.ReturnValue>
+					<ActivityBind Name="ROOT" Path="_x005f_String63" />
+				</ns0:LookupActivity.ReturnValue>
+			</ns0:LookupActivity>
+			<ns0:LookupActivity ListId="{}{0BB154A4-AAE3-4F65-BD81-DA9811EBAF0E}" x:Name="ID1096" FieldName="Batch" LookupFunction="LookupFriendlyString" __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=__item}">
+				<ns0:LookupActivity.ReturnValue>
+					<ActivityBind Name="ROOT" Path="_x005f_String66" />
+				</ns0:LookupActivity.ReturnValue>
+			</ns0:LookupActivity>
+			<ns0:ClearArrayListActivity x:Name="ID1097" ReturnValue="{ActivityBind ROOT,Path=_x005f_ArrayList0}" />
+			<ns0:LookupActivity ListId="{}{0BB154A4-AAE3-4F65-BD81-DA9811EBAF0E}" x:Name="ID1099" FieldName="Editor" LookupFunction="LookupUser" __Context="{ActivityBind ROOT,Path=__context}" ListItem="{ActivityBind ROOT,Path=__item}">
+				<ns0:LookupActivity.ReturnValue>
+					<ActivityBind Name="ROOT" Path="_x005f_String75" />
+				</ns0:LookupActivity.ReturnValue>
+			</ns0:LookupActivity>
+			<ns0:AddToArrayListActivity x:Name="ID1098" Value="{ActivityBind ROOT,Path=_x005f_String75}" ReturnValue="{ActivityBind ROOT,Path=_x005f_ArrayList0}" />
+			<ns0:ClearArrayListActivity x:Name="ID1100" ReturnValue="{ActivityBind ROOT,Path=_x005f_ArrayList1}" />
+			<ns0:AddToArrayListActivity x:Name="ID1101" Value="DORIGO\kai" ReturnValue="{ActivityBind ROOT,Path=_x005f_ArrayList1}" />
+			<ns0:AddToArrayListActivity x:Name="ID1102" Value="DORIGO\craig" ReturnValue="{ActivityBind ROOT,Path=_x005f_ArrayList1}" />
+			<ns0:EmailActivity BCC="{x:Null}" x:Name="ID645" CC="{ActivityBind ROOT,Path=_x005f_ArrayList1}" Body="&#xD;Please check your entry and adjust accordingly&#xD;&#xD;Job Qty: [%_x005f_String8%]&#xD;&#xD;Qty Processed (Total): [%_x005f_String63%]&#xD;&#xD;Qty Left: [%_x005f_String66%]&#xD;" To="{ActivityBind ROOT,Path=_x005f_ArrayList0}" __Context="{ActivityBind ROOT,Path=__context}" Subject="{ActivityBind ROOT,Path=Subject}" />
+		</IfElseBranchActivity>
+	</IfElseActivity>
+</ns0:RootWorkflowActivityWithData>

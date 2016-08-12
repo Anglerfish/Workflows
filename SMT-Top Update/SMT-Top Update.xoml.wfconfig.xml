@@ -1,0 +1,24 @@
+<WorkflowConfig>
+    <Template
+        BaseID="{18DBFFCB-41C8-4971-B7CB-A69004B4D938}"
+        DocLibID="{880CF908-DB6B-40FF-AD45-556AE44647D2}"
+        XomlHref="Workflows/SMT-Top Update/SMT-Top Update.xoml"
+        XomlVersion="V115.0"
+        RulesHref="Workflows/SMT-Top Update/SMT-Top Update.xoml.rules"
+        RulesVersion="V115.0"
+    >
+    </Template>
+    <Association
+        ListID="{8202749A-817F-44D1-ADC2-DC86ED112154}"
+        TaskListID="{9F1490A8-F636-43FD-A424-7F8FD0A44865}"
+        StartManually="true"
+        StartOnChange="true"
+    >
+    </Association>
+    <ContentTypes>
+    </ContentTypes>
+    <Initiation URL="Workflows/SMT-Top Update/SMT-Top Update.aspx">
+        <Fields/>
+        <Parameters></Parameters>
+    </Initiation>
+</WorkflowConfig>
